@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import HeroSection from './Components/HeroSection/HeroSection'
 import Achievements from './Components/AchievementSection/Achievements'
+import Demo from './Components/DemoSection/Demo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <Achievements/>
+      <Demo/>
     </>
   )
 }

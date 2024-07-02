@@ -5,6 +5,8 @@ import HeroSection from './Components/HeroSection/HeroSection'
 import Achievements from './Components/AchievementSection/Achievements'
 import Demo from './Components/DemoSection/Demo'
 import Footer from './Components/Footer/Footer'
+import Calender from './Components/CalenderSection/Calender'
+import Community from './Components/BlogsSection/Blogs'
 import Faq from './Components/FAQSection/Faq'
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <Achievements/>
+      <Calender/>
+      <Community/>
       <Demo/>
       <Faq/>
       <Footer/>

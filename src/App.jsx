@@ -5,6 +5,7 @@ import HeroSection from './Components/HeroSection/HeroSection'
 import Achievements from './Components/AchievementSection/Achievements'
 import Demo from './Components/DemoSection/Demo'
 import Footer from './Components/Footer/Footer'
+import Faq from './Components/FAQSection/Faq'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <HeroSection/>
       <Achievements/>
       <Demo/>
+      <Faq/>
       <Footer/>
     </>
   )

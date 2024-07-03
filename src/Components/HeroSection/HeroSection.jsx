@@ -5,7 +5,7 @@ import backgroundImage from '../../assets/colorful-background.png';
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="relative bg-cover bg-center text-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="flex flex-col items-center justify-center h-full bg-black bg-opacity-5 text-white px-8 py-8 lg:py-20">
         <h1 className="text-3xl lg:text-5xl font-bold text-introHeadingBlack">Ready to Revolutionize Your Business with AI?</h1>
         <h1 className="text-3xl lg:text-5xl font-bold text-introHeadingBlack"></h1>

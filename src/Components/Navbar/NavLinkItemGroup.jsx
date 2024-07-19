@@ -4,9 +4,10 @@ import NavLinkItem from './NavLinkItem';
 const NavLinkItemGroup = () => (
     <>
         <NavLinkItem name="Home" to="home" />
-        <NavLinkItem name="Service" to="service" />
+        <NavLinkItem name="Services" to="services" />
+        <NavLinkItem name="Industries" to="ndustries" />
+        <NavLinkItem name="Testimonials" to="testimonials" />
         <NavLinkItem name="About Us" to="aboutUs" />
-        <NavLinkItem name="Industries" to="industries" />
         <NavLinkItem name="Contact Us" to="contactUs" />
     </>
 );

@@ -12,7 +12,7 @@ const Achievements = () => {
                 <div className="text-center lg:text-left lg:w-1/2">
                     <h2 className="text-3xl font-bold sm:text-4xl">
                         Helping a local <br />
-                        <span className="text-green-500">business reinvent itself</span>
+                        <span className="text-primary">business reinvent itself</span>
                     </h2>
                     <p className="mt-4 text-gray-600 text-sm sm:text-base">
                         We reached here with our hard work and dedication

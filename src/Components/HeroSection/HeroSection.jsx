@@ -1,20 +1,21 @@
 // src/components/HeroSection.js
-
 import React from 'react';
 import backgroundImage from '../../assets/colorful-background.png';
+import { IoRocketOutline } from "react-icons/io5";
+import Button from '../ReusableComponents/Button';
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-cover bg-center text-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div className="flex flex-col items-center justify-center h-full bg-black bg-opacity-5 text-white px-8 py-8 lg:py-20">
-        <h1 className="text-3xl lg:text-5xl font-bold text-introHeadingBlack">Ready to Revolutionize Your Business with AI?</h1>
-        <h1 className="text-3xl lg:text-5xl font-bold text-introHeadingBlack"></h1>
-        <p className="mt-4 text-sm lg:text-lg text-center max-w-2xl text-introHeadingBlack">
-          Re-Imagine your business with innovative AI strategies and solutions by harnessing the latest in AI Technology to drive growth, efficiency, and scalability.
-        </p>
-        <button className="mt-6 px-4 py-2 lg:px-6 lg:py-3 bg-introHeadingBlack text-white font-semibold rounded-md hover:bg-gray-800">
-          Talk To Us
-        </button>
+    <div className="relative bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div className="absolute inset-0 bg-black opacity-5"></div>
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-8 py-8 lg:py-20 font-poppins">
+        <h1 className="text-3xl lg:text-5xl font-bold mb-6">Create Engaging Landing Pages</h1>
+        <p className="text-sm lg:text-lg mb-10">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p>
+        <div className="flex space-x-4">
+          <Button backgroundColor={"purple-600"} textColor={"white"} hoverColor={"purple-700"}><IoRocketOutline className="mr-2" />
+            Know More</Button>
+          <Button backgroundColor={"white"} textColor={"purple-600"} hoverColor={"gray-100"}>Talk to Us</Button>
+        </div>
       </div>
     </div>
   );

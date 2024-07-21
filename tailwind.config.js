@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         kanit: ['Kanit', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
         introHeadingBlack: '#111827',

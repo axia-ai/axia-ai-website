@@ -1,25 +1,18 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import HeroSection from '../HeroSection/HeroSection'
 import Achievements from '../AchievementSection/Achievements'
-import Demo from '../DemoSection/Demo'
-import Footer from '../Footer/Footer'
 import Calender from '../CalenderSection/Calender'
 import Community from '../BlogsSection/Blogs'
 import Faq from '../FAQSection/Faq'
+import Layout from '../Layout/Layout'
 
 function LandingPage() {
     return (
-        <>
-            <Navbar />
-            <HeroSection />
+        <Layout heroHeading={"Create Engaging Landing Pages"} heroPara={"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '"}>
             <Achievements />
             <Calender />
             <Community />
-            <Demo />
             <Faq />
-            <Footer />
-        </>
+        </Layout>
     )
 }
 

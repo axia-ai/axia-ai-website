@@ -2,14 +2,14 @@ import React from 'react';
 import NavLinkItem from './NavLinkItem';
 
 const NavLinkItemGroup = () => (
-    <>
-        <NavLinkItem name="Home" to="home" />
-        <NavLinkItem name="Services" to="services" />
-        <NavLinkItem name="Industries" to="industries" />
-        <NavLinkItem name="Testimonials" to="testimonials" />
-        <NavLinkItem name="About Us" to="aboutUs" />
-        <NavLinkItem name="Contact Us" to="contactUs" />
-    </>
+    <ul className='flex space-x-4 list-none'>
+        <NavLinkItem name="Home" href="/" />
+        <NavLinkItem name="Services" href="/services" />
+        <NavLinkItem name="Industries" href="/industries" />
+        <NavLinkItem name="Testimonials" href="/testimonials" />
+        <NavLinkItem name="About Us" href="/aboutUs" />
+        <NavLinkItem name="Contact Us" href="/contactUs" />
+    </ul>
 );
 
 export default NavLinkItemGroup;

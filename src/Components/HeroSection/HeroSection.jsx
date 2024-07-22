@@ -12,9 +12,9 @@ const HeroSection = () => {
         <h1 className="text-3xl lg:text-5xl font-bold mb-6">Create Engaging Landing Pages</h1>
         <p className="text-sm lg:text-lg mb-10">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p>
         <div className="flex space-x-4">
-          <Button backgroundColor={"purple-600"} textColor={"white"} hoverColor={"purple-700"}><IoRocketOutline className="mr-2" />
+          <Button color="purple"><IoRocketOutline className="mr-2" />
             Know More</Button>
-          <Button backgroundColor={"white"} textColor={"purple-600"} hoverColor={"gray-100"}>Talk to Us</Button>
+          <Button color="white">Talk to Us</Button>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ module.exports = {
         introHeadingBlack: '#111827',
         introHeadingGrey: '#6D7280',
         secondaryBackround: '#F5F7FA',
-        primary: '#9333EA',
+        primary: '#9564B9',
       }
     },
   },

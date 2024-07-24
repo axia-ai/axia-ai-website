@@ -2,7 +2,7 @@ import React from 'react';
 import NavLinkItem from './NavLinkItem';
 
 const NavLinkItemGroup = () => (
-    <ul className='flex space-x-4 list-none'>
+    <ul className='flex flex-col space-x-0 sm:flex-row sm:space-x-4 list-none'>
         <NavLinkItem name="Home" href="/" />
         <NavLinkItem name="Services" href="/services" />
         <NavLinkItem name="Industries" href="/industries" />

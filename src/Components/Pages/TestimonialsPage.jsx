@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import TestimonialPage from "../Testimonials/TestimonialPage";
+import TestimonialPage from "../TestimonialsComponent/TestimonialPage";
 
 function Testimonials() {
   return (

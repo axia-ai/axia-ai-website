@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/axia_logo.png"
 import { CgInstagram } from "react-icons/cg";
 import { CgFacebook } from "react-icons/cg";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -11,10 +12,11 @@ export default function Footer() {
       <div className="container mx-auto flex flex-col items-center justify-between lg:flex-row lg:items-start px-5">
         <div className="flex flex-col items-center mb-8 md:mb-0">
           <a href="/" className="flex items-center mb-4">
-            <span className="font-bold text-2xl">Nexcent</span>
+            <img className="mx-3 rounded-full size-12" src={logo} alt="" />
+            <span className="font-bold text-2xl">Axia</span>
           </a>
           <p className="text-sm text-gray-400">
-            Copyright © 2020 Nexcent Itd. All rights reserved.
+            Copyright © 2024 Axia Itd. All rights reserved.
           </p>
           <div className="mt-4 flex space-x-4">
             <a href="/" className="rounded-full bg-gray-700 p-2">

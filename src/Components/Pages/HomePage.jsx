@@ -7,7 +7,7 @@ import Layout from '../Layout/Layout'
 
 function LandingPage() {
     return (
-        <Layout heroHeading={"Create Engaging Landing Pages"} heroPara={"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '"}>
+        <Layout heroHeading={"Ready to Revolutionize Your Business with AI?"} heroPara={"Re-Imagine you business with innovative AI strategies and solutions by harnessing the latest in AI Technology to drive growth, efficiency, and scalability."}>
             <Achievements />
             <Calender />
             <Community />

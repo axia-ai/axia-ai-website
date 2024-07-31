@@ -8,6 +8,7 @@ import Partners from '../../Components/Partners/Partners'
 import CtaSection_UI_Kit from '../../Components/CtaSection_UI_Kit/CtaSection_UI_Kit'
 import Vacation from '../../Components/VacationSection/Vacation'
 import TestimonialSection from '../../Components/TestimonialSection/TestimonialSection'
+import Teams from '../../Components/Teams/Teams'
 
 function LandingPage() {
     return (
@@ -18,6 +19,7 @@ function LandingPage() {
             <CtaSection_UI_Kit/>
             <Community />
             <Faq />
+            <Teams/>
             <TestimonialSection/>
             <Vacation/>
         </Layout>

@@ -6,6 +6,7 @@ import Faq from '../FAQSection/Faq'
 import Layout from '../Layout/Layout'
 import Partners from '../../Components/Partners/Partners'
 import CtaSection_UI_Kit from '../../Components/CtaSection_UI_Kit/CtaSection_UI_Kit'
+import Vacation from '../../Components/VacationSection/Vacation'
 
 function LandingPage() {
     return (
@@ -16,6 +17,7 @@ function LandingPage() {
             <CtaSection_UI_Kit/>
             <Community />
             <Faq />
+            <Vacation/>
         </Layout>
     )
 }

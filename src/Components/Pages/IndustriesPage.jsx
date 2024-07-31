@@ -4,8 +4,8 @@ import IndustriesCards from '../IndustriesSection/IndustriesCards'
 
 function Industries() {
   return (
-    <Layout heroHeading={"Industries"} heroPara={"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 's"}>
-      <IndustriesCards/>
+    <Layout heroHeading={"Industries We Serve"} heroPara={"Business Transformations can be complex. Explore the domains we aim and serve to simplify the process."}>
+      <IndustriesCards />
     </Layout>
   )
 }

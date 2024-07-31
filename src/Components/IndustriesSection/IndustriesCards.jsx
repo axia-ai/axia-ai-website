@@ -7,7 +7,7 @@ function IndustriesPage() {
   return (
     <PinkBackgroundComponent>
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold mt-2">Analytics that feels like it’s from the future</h1>
+        <h1 className="text-4xl font-bold mt-2">AI-Driven Solutions that feel like they are from the Future</h1>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm sm:text-lg">
           Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.
         </p>

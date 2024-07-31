@@ -7,10 +7,10 @@ function ContactUs() {
     <Layout
       heroHeading={"Contact Us"}
       heroPara={
-        "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 's"
+        "We would love to get in touch and explore how we can help you."
       }
     >
-      <ContactUsPage/>
+      <ContactUsPage />
     </Layout>
   );
 }

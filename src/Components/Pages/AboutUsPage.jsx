@@ -4,6 +4,7 @@ import AboutUsVision from '../AboutUsSection/AboutUsVision'
 import AboutUsStory from '../AboutUsSection/AboutUsStories'
 import AboutUsInfo from '../AboutUsSection/AboutUsInfo'
 import AboutUsValues from '../AboutUsSection/AboutUsValues'
+import Teams from '../Teams/Teams'
 
 function AboutUs() {
   return (
@@ -12,6 +13,7 @@ function AboutUs() {
       <AboutUsStory />
       <AboutUsInfo />
       <AboutUsValues/>
+      <Teams/>
     </Layout>
   )
 }

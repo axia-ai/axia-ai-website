@@ -16,6 +16,7 @@ module.exports = {
         secondaryBackround: '#F5F7FA',
         primary: '#9564B9',
         primaryHover: '#7C3A9E',
+        darkBlue: '#102542', 
       }
     },
   },

@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import TrustedField from "../ServicesComponent/TrustedField";
 import FeaturesServices from '../ServicesComponent/FeaturesServices'
+import TestimonialsServices from '../ServicesComponent/TestimonialsServices'
+
 
 function Services() {
   return (
@@ -13,6 +15,7 @@ function Services() {
     >
       <TrustedField />
       <FeaturesServices/>
+      <TestimonialsServices/>
     </Layout>
   );
 }

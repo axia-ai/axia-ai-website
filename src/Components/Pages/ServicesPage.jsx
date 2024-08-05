@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import TrustedField from "../ServicesComponent/TrustedField";
+import FeaturesServices from '../ServicesComponent/FeaturesServices'
 
 function Services() {
   return (
@@ -11,6 +12,7 @@ function Services() {
       }
     >
       <TrustedField />
+      <FeaturesServices/>
     </Layout>
   );
 }

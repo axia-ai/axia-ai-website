@@ -3,6 +3,7 @@ import Layout from "../Layout/Layout";
 import TrustedField from "../ServicesComponent/TrustedField";
 import FeaturesServices from '../ServicesComponent/FeaturesServices'
 import TestimonialsServices from '../ServicesComponent/TestimonialsServices'
+import CtaServices from '../ServicesComponent/CtaServices'
 
 
 function Services() {
@@ -16,6 +17,7 @@ function Services() {
       <TrustedField />
       <FeaturesServices/>
       <TestimonialsServices/>
+      <CtaServices/>
     </Layout>
   );
 }

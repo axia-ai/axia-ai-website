@@ -11,9 +11,9 @@ const Teams = () => {
           that drive us
         </p>
         <div className="flex justify-between items-center my-8 max-md:flex-col max-md:my-3">
-          <Teams_card Name="Michael L." Post="UI/UX"/>
-          <Teams_card Name="Michael L." Post="UI/UX"/>
-          <Teams_card Name="Michael L." Post="UI/UX"/>
+          <Teams_card Name="Shreyas Karanjkar" Post="Co-Founder, Marketing & Business Development"/>
+          <Teams_card Name="Akash Nagarkar" Post="Co-Founder, AI Services"/>
+          <Teams_card Name="Siddharth Khonde" Post="Co-Founder, Software Engineering"/>
         </div>
       </div>
     </>

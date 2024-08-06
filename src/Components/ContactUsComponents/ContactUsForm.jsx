@@ -51,6 +51,14 @@ function ContactUsForm() {
         <div className="col-span-1 md:col-span-2">
           <label className="block text-gray-700">Select Subject?</label>
           <div className="flex items-center mt-2 space-x-4">
+          <label className="flex items-center">
+              <input
+                type="radio"
+                name="subject"
+                className="form-radio text-blue-500"
+              />
+              <span className="ml-2">Project Discussions</span>
+            </label>
             <label className="flex items-center">
               <input
                 type="radio"
@@ -66,23 +74,7 @@ function ContactUsForm() {
                 name="subject"
                 className="form-radio text-blue-500"
               />
-              <span className="ml-2">General Inquiry</span>
-            </label>
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="subject"
-                className="form-radio text-blue-500"
-              />
-              <span className="ml-2">General Inquiry</span>
-            </label>
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="subject"
-                className="form-radio text-blue-500"
-              />
-              <span className="ml-2">General Inquiry</span>
+              <span className="ml-2">Career Opportunities</span>
             </label>
           </div>
         </div>

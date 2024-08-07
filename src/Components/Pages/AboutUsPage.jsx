@@ -9,9 +9,9 @@ import Teams from '../Teams/Teams'
 function AboutUs() {
   return (
     <Layout heroHeading={"Our Story"} heroPara={"We help you to unleash the power of AI to transform your business."}>
-      <AboutUsVision />
-      <AboutUsStory />
-      <AboutUsInfo />
+      {/* <AboutUsVision /> 
+      <AboutUsStory /> 
+      <AboutUsInfo /> */}
       <AboutUsValues/>
       <Teams/>
     </Layout>

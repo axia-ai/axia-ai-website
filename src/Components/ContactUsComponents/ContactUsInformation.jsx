@@ -13,10 +13,10 @@ const ContactUsInformation = () => {
   return (
     <div className="bg-darkBlue p-10 rounded-lg text-white text-xs sm:text-sm">
       <div className="mb-20">
-        <h2 className="text-2xl font-bold mb-2">Contact Information</h2>
-        <p className="text-gray-300 mb-6">
+        <h2 className="text-2xl font-bold mb-2">Connect With Us!</h2>
+       {/* <p className="text-gray-300 mb-6">
           Say something to start a live chat!
-        </p>
+        </p> */}
       </div>
       <div className="mb-9 flex items-center">
         <FaPhoneAlt className="text-white mr-4" />

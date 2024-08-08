@@ -11,7 +11,7 @@ import {
 
 const ContactUsInformation = () => {
   return (
-    <div className="bg-darkBlue p-10 rounded-lg text-white text-xs sm:text-sm">
+    <div className="bg-darkBlue p-10 md:py-28 rounded-lg text-white text-xs sm:text-sm">
       <div className="mb-20">
         <h2 className="text-2xl font-bold mb-2">Contact Information</h2>
         <p className="text-gray-300 mb-6">

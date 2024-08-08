@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaDiscord,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const ContactUsInformation = () => {
@@ -55,6 +56,14 @@ const ContactUsInformation = () => {
           className="bg-primary p-2 rounded-full cursor-pointer"
         >
           <FaDiscord className="hover:text-white" />
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary p-2 rounded-full cursor-pointer"
+        >
+          <FaLinkedin className="hover:text-white" />
         </a>
       </div>
     </div>

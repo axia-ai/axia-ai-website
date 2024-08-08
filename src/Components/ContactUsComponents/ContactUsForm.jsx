@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../ReusableComponents/Button";
+import countryArray from "../../JsonData/country";
+import domainArray from "../../JsonData/domain";
 
 function ContactUsForm() {
   return (
@@ -9,6 +11,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">First Name</label>
           <input
             type="text"
+            placeholder="Enter your first name"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -16,6 +19,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">Last Name</label>
           <input
             type="text"
+            placeholder="Enter your last name"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -23,6 +27,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">Email</label>
           <input
             type="email"
+            placeholder="Enter your email"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -30,14 +35,15 @@ function ContactUsForm() {
           <label className="block text-gray-700">Phone Number</label>
           <input
             type="text"
+            placeholder="Enter your phone number"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            value="+1 012 3456 789"
           />
         </div>
         <div>
           <label className="block text-gray-700">Job Title</label>
           <input
             type="text"
+            placeholder="Enter your job title"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -45,51 +51,54 @@ function ContactUsForm() {
           <label className="block text-gray-700">Company</label>
           <input
             type="text"
+            placeholder="Enter your company name"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
         <div className="col-span-1 md:col-span-2">
-          <label className="block text-gray-700">Select Subject?</label>
-          <div className="flex items-center mt-2 space-x-4">
-          <label className="flex items-center">
-              <input
-                type="radio"
-                name="subject"
-                className="form-radio text-blue-500"
-              />
-              <span className="ml-2">Project Discussions</span>
-            </label>
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="subject"
-                className="form-radio text-blue-500"
-                checked
-              />
-              <span className="ml-2">General Inquiry</span>
-            </label>
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="subject"
-                className="form-radio text-blue-500"
-              />
-              <span className="ml-2">Career Opportunities</span>
-            </label>
-          </div>
+          <label className="block text-gray-700 mb-2">Select Subject?</label>
+          <input
+            type="radio"
+            id="html"
+            name="fav_language"
+            value="HTML"
+          />  <label for="html">General Enquiry</label>
+            <input
+            type="radio"
+            id="css"
+            name="fav_language"
+            value="CSS"
+          />  <label for="css">Feedback</label> {" "}
+          <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
+            <label for="javascript">Others</label>
         </div>
         <div>
           <label className="block text-gray-700">Location</label>
           <select className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
-            <option>Location</option>
-            {/* Add more options here */}
+            <option>Choose a location</option>
+
+            {countryArray.map((country) => (
+              <option key={country.id} value={country.value}>
+                {country.label}
+              </option>
+            ))}
           </select>
         </div>
         <div>
           <label className="block text-gray-700">Choose a domain</label>
           <select className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
             <option>Choose a domain</option>
-            {/* Add more options here */}
+
+            {domainArray.map((domain) => (
+              <option key={domain.id} value={domain.value}>
+                {domain.label}
+              </option>
+            ))}
           </select>
         </div>
         <div className="col-span-1 md:col-span-2">

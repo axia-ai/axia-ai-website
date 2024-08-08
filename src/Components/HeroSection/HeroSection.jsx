@@ -20,11 +20,11 @@ const HeroSection = ({ heroHeading, heroPara, subPage }) => {
         <div className="flex space-x-4">
           <Button color="purple">
             <IoRocketOutline className="mr-2" />
-            Know More
-          </Button>
-          <Button color="white" link="/contactUs">
             Talk to Us
           </Button>
+          {/* <Button color="white" link="/contactUs">
+            Talk to Us
+          </Button> */}
         </div>
       </div>
     </div>

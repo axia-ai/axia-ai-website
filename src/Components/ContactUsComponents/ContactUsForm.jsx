@@ -11,7 +11,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">First Name</label>
           <input
             type="text"
-            placeholder="Enter your first name"
+            placeholder="Enter your First Name"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -19,7 +19,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">Last Name</label>
           <input
             type="text"
-            placeholder="Enter your last name"
+            placeholder="Enter your Last Name"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -27,7 +27,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">Email</label>
           <input
             type="email"
-            placeholder="Enter your email"
+            placeholder="Please Enter a Valid Email"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -35,7 +35,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">Phone Number</label>
           <input
             type="text"
-            placeholder="Enter your phone number"
+            placeholder="Enter your Phone Number with the Country Code"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -43,7 +43,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">Job Title</label>
           <input
             type="text"
-            placeholder="Enter your job title"
+            placeholder="Enter your Job Title"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -51,7 +51,7 @@ function ContactUsForm() {
           <label className="block text-gray-700">Company</label>
           <input
             type="text"
-            placeholder="Enter your company name"
+            placeholder="Enter your Company Name"
             className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>

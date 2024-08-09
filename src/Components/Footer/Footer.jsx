@@ -35,31 +35,91 @@ export default function Footer() {
         </div>
         <div className=" mx-25  flex justify-between sm:pr-10 sm:justify-between">
           <div className="m-6 flex flex-col md:ml-10">
-            <h3 className="font-bold text-lg mb-4">Company</h3>
+            <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li>
-                <a href="/about-us" className="hover:underline">
-                  About us
+            <li>
+                <a href="/" className="hover:underline">
+                  Home
                 </a>
               </li>
               <li>
-                <a href="/blog" className="hover:underline">
-                  Blog
+                <a href="/services" className="hover:underline">
+                  Services
                 </a>
               </li>
               <li>
-                <a href="/contact-us" className="hover:underline">
-                  Contact us
-                </a>
-              </li>
-              <li>
-                <a href="/pricing" className="hover:underline">
-                  Pricing
+                <a href="/industries" className="hover:underline">
+                  Industries
                 </a>
               </li>
               <li>
                 <a href="/testimonials" className="hover:underline">
                   Testimonials
+                </a>
+              </li>
+              <li>
+                <a href="/aboutUs" className="hover:underline">
+                  About Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="m-6 flex flex-col md:ml-10">
+            <h3 className="font-bold text-lg mb-4">Services</h3>
+            <ul className="space-y-2">
+            <li>
+                <a href="/" className="hover:underline">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="hover:underline">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="/industries" className="hover:underline">
+                  Industries
+                </a>
+              </li>
+              <li>
+                <a href="/testimonials" className="hover:underline">
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a href="/aboutUs" className="hover:underline">
+                  About Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="m-6 flex flex-col md:ml-10">
+            <h3 className="font-bold text-lg mb-4">Industries</h3>
+            <ul className="space-y-2">
+            <li>
+                <a href="/" className="hover:underline">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="hover:underline">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="/industries" className="hover:underline">
+                  Industries
+                </a>
+              </li>
+              <li>
+                <a href="/testimonials" className="hover:underline">
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a href="/aboutUs" className="hover:underline">
+                  About Us
                 </a>
               </li>
             </ul>
@@ -95,7 +155,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col md:ml-10   ">
+        {/* <div className="flex flex-col md:ml-10   ">
           <h3 className="font-bold text-lg mb-4">Stay up to date</h3>
           <form className="flex items-center">
             <input
@@ -111,7 +171,7 @@ export default function Footer() {
               <BsSend />
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

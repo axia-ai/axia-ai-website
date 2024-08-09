@@ -20,7 +20,7 @@ const HeroSection = ({ heroHeading, heroPara, subPage }) => {
         <div className="flex space-x-4">
           <Button color="purple">
             <IoRocketOutline className="mr-2" />
-            Talk to Us
+            Explore With Us
           </Button>
           {/* <Button color="white" link="/contactUs">
             Talk to Us

@@ -13,7 +13,7 @@ const ContactUsInformation = () => {
   return (
     <div className="bg-darkBlue p-10 rounded-lg text-white text-xs sm:text-sm">
       <div className="mb-20 md:mb-32">
-        <h2 className="text-2xl font-bold mb-2">Connect With Us!</h2>
+        <h2 className="text-2xl font-bold mb-2">All It Takes is the First Step.<br></br>Revolutionize Your Business With AI.<br></br>Explore How We Can Help You In The Journey.</h2>
        {/* <p className="text-gray-300 mb-6">
           Say something to start a live chat!
         </p> */}

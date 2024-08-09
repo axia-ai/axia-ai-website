@@ -12,27 +12,29 @@ import {
 const ContactUsInformation = () => {
   return (
     <div className="bg-darkBlue p-10 rounded-lg text-white text-xs sm:text-sm">
-      <div className="mb-20">
+      <div className="mb-20 md:mb-32">
         <h2 className="text-2xl font-bold mb-2">Connect With Us!</h2>
        {/* <p className="text-gray-300 mb-6">
           Say something to start a live chat!
         </p> */}
       </div>
-      <div className="mb-9 flex items-center">
-        <FaPhoneAlt className="text-white mr-4" />
-        <span>+1012 3456 789</span>
+      <div className="text-base md:text-lg">
+        <div className="mb-9 flex items-center">
+          <FaPhoneAlt className="text-white mr-4" />
+          <span>+1012 3456 789</span>
+        </div>
+        <div className="mb-9 flex items-center">
+          <FaEnvelope className="text-white mr-4" />
+          <span>demo@gmail.com</span>
+        </div>
+        <div className="mb-9 flex items-center">
+          <FaMapMarkerAlt className="text-white mr-4" />
+          <span>
+            132 Dartmouth Street Boston, Massachusetts 02156 United States
+          </span>
+        </div>
       </div>
-      <div className="mb-9 flex items-center">
-        <FaEnvelope className="text-white mr-4" />
-        <span>demo@gmail.com</span>
-      </div>
-      <div className="mb-9 flex items-center">
-        <FaMapMarkerAlt className="text-white mr-4" />
-        <span>
-          132 Dartmouth Street Boston, Massachusetts 02156 United States
-        </span>
-      </div>
-      <div className="flex space-x-4 mt-20">
+      <div className="flex space-x-4 mt-20 md:mt-32">
         <a
           href="https://twitter.com"
           target="_blank"

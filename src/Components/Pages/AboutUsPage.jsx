@@ -3,6 +3,7 @@ import Layout from "../Layout/Layout";
 import AboutUsValues from "../AboutUsSection/AboutUsValues";
 import Teams from "../Teams/Teams";
 import Our_Services from "../AboutUsSection/Our_Services";
+import AboutUsPartners from "../AboutUsSection/AboutUsPartners";
 
 function AboutUs() {
   return (
@@ -15,6 +16,7 @@ function AboutUs() {
       <AboutUsValues />
       <Our_Services />
       <Teams />
+      <AboutUsPartners />
     </Layout>
   );
 }

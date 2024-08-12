@@ -4,6 +4,7 @@ import TrustedField from "../ServicesComponent/TrustedField";
 import FeaturesServices from '../ServicesComponent/FeaturesServices'
 import TestimonialsServices from '../ServicesComponent/TestimonialsServices'
 import CtaServices from '../ServicesComponent/CtaServices'
+import ServicesAccordainsection from "../ServicesComponent/ServicesAccordainsection";
 
 
 function Services() {
@@ -15,6 +16,7 @@ function Services() {
       }
     >
       <TrustedField />
+      <ServicesAccordainsection/>
       <FeaturesServices/>
       <TestimonialsServices/>
       <CtaServices/>

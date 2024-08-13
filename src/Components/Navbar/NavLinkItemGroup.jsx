@@ -16,11 +16,6 @@ const NavLinkItemGroup = () => (
     <NavLinkItem
       name="Industries"
       href="/industries"
-      dropdownItems={[
-        { name: "Industry 1", href: "/industries/industry1" },
-        { name: "Industry 2", href: "/industries/industry2" },
-        { name: "Industry 3", href: "/industries/industry3" },
-      ]}
     />
     <NavLinkItem name="Testimonials" href="/testimonials" />
     <NavLinkItem name="About Us" href="/aboutUs" />

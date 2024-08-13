@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import AboutUsValues from "../AboutUsSection/AboutUsValues";
 import Teams from "../Teams/Teams";
-import Our_Services from "../AboutUsSection/Our_Services";
+import OurValues from "../AboutUsSection/OurValues";
 import AboutUsPartners from "../AboutUsSection/AboutUsPartners";
 import AboutUsTestimonials from "../AboutUsSection/AboutUsTestimonials";
 
@@ -15,7 +15,7 @@ function AboutUs() {
       }
     >
       <AboutUsValues />
-      <Our_Services />
+      <OurValues />
       <Teams />
       <AboutUsPartners />
       <AboutUsTestimonials />

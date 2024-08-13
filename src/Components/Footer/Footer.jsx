@@ -94,7 +94,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="m-6 flex flex-col md:ml-10">
+          {/* <div className="m-6 flex flex-col md:ml-10">
             <h3 className="font-bold text-lg mb-4">Industries</h3>
             <ul className="space-y-2">
             <li>
@@ -123,7 +123,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="m-6 flex flex-col md:ml-10">
             <h3 className="font-bold text-lg mb-4">Support</h3>
             <ul className="space-y-2">

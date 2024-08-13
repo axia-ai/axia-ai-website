@@ -62,13 +62,29 @@ function ContactUsForm() {
             id="html"
             name="fav_language"
             value="HTML"
-          />  <label for="html">General Enquiry</label>
-            <input
+          />  
+          <label for="html">General Inquiry</label>
+           <input
             type="radio"
             id="css"
             name="fav_language"
             value="CSS"
-          />  <label for="css">Feedback</label> {" "}
+          /> 
+          <label for="html">Project Discussion</label>
+           <input
+            type="radio"
+            id="css"
+            name="fav_language"
+            value="CSS"
+          />
+          <label for="html">Careers</label>
+           <input
+            type="radio"
+            id="css"
+            name="fav_language"
+            value="CSS"
+          /> 
+          <label for="css">Feedback</label> 
           <input
             type="radio"
             id="javascript"

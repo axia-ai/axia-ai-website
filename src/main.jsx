@@ -9,6 +9,7 @@ import AboutUsPage from './Components/Pages/AboutUsPage.jsx'
 import ContactUsPage from './Components/Pages/ContactUsPage.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react'
+import SoftwareService from './Components/ServicesSubComponents/SoftwareService.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/software-service" element={<SoftwareService />} />
           <Route path="/industries" element={<IndustriesPage />} />
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/aboutUs" element={<AboutUsPage />} />

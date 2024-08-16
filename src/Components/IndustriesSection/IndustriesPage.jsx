@@ -11,9 +11,9 @@ function IndustriesPage() {
   return (
     <>
       <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
+        title={"AI Solutions That Deliver A Glimpse Of The Future"}
         description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
+          "We believe that bold actions shape the future. Leading with ambition demands the courage to adapt. While doing what's right is often challenging, it's always worthwhile."
         }
         cards={IndustryCards}
       />

@@ -1,5 +1,7 @@
 import React from "react";
 import aiImage from "../../assets/ai.png";
+import { FaRegEye } from "react-icons/fa";
+import { GiBullseye } from "react-icons/gi";
 
 function AboutUsValues() {
   return (
@@ -28,9 +30,13 @@ function AboutUsValues() {
         </p>
         <div className="text-sm md:text-base">
           <div className="mb-4">
-            <h3 className="text-yellow-400 font-semibold text-xl mb-2">
-              <span className="mr-2">🔗</span>Our Mission
-            </h3>
+            <div className="flex justify-start max-md:justify-center">
+            <GiBullseye size="30" className=" mr-3"/>
+              <h3 className="text-yellow-400 font-semibold text-xl mb-2">
+                Our Aim
+              </h3>
+            </div>
+            
             <p>
             To empower businesses through cutting-edge AI and software
             solutions, driving innovation and unlocking growth potential. We are
@@ -40,9 +46,12 @@ function AboutUsValues() {
             </p>
           </div>
           <div>
-            <h3 className="text-yellow-400 font-semibold text-xl mb-2">
-              <span className="mr-2">⚫</span>Our Vision
-            </h3>
+            <div className="flex justify-start max-md:justify-center">
+              <FaRegEye size="25" className=" m-1 mr-3" />
+              <h3 className="text-yellow-400 font-semibold text-xl mb-2">
+              Our Vision
+              </h3>
+            </div>
             <p>
             To be the leading AI and software engineering consultancy, shaping
             the future of business through transformative technology. We

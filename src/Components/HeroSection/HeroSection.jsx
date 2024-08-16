@@ -18,10 +18,12 @@ const HeroSection = ({ heroHeading, heroPara, subPage }) => {
         <h1 className="text-3xl lg:text-5xl font-bold mb-6">{heroHeading}</h1>
         <p className="text-sm lg:text-lg mb-10">{heroPara}</p>
         <div className="flex space-x-4">
-          <Button color="purple">
-            <IoRocketOutline className="mr-2" />
-            Explore With Us
-          </Button>
+          <a href="/contactUs">
+            <Button color="purple">
+              <IoRocketOutline className="mr-2" />
+              Explore With Us
+            </Button>
+          </a>
           {/* <Button color="white" link="/contactUs">
             Talk to Us
           </Button> */}

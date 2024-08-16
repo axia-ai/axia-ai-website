@@ -9,6 +9,7 @@ function ContactUs() {
       heroPara={
         "We would love to get in touch and explore how we can help you."
       }
+      DisplayComponent={'False'}   //If Demo component is not required then give 'False' or give 'True'
     >
       <ContactUsPage />
     </Layout>

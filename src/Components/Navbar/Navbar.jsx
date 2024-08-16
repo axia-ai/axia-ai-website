@@ -35,8 +35,12 @@ const Navbar = () => {
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start mr-10 sm:mr-0">
             <div className="flex-shrink-0">
               <div className="flex items-center">
-                <CompanyLogo/>
-                <span class="text-xl font-kanit font-bold text-black">Axia</span>
+                <a href="/">
+                  <CompanyLogo/>
+                </a>
+                <a href="/">
+                  <span class="text-xl font-kanit font-bold text-black">Axia</span>
+                </a>
               </div>
             </div>
             <div className="hidden sm:block sm:m-auto">

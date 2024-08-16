@@ -62,6 +62,7 @@ function ContactUsForm() {
             id="html"
             name="fav_language"
             value="HTML"
+            className="mr-2 ml-1"
           />  
           <label for="html">General Inquiry</label>
            <input
@@ -69,6 +70,7 @@ function ContactUsForm() {
             id="css"
             name="fav_language"
             value="CSS"
+            className="mr-2 ml-1"
           /> 
           <label for="html">Project Discussion</label>
            <input
@@ -76,6 +78,7 @@ function ContactUsForm() {
             id="css"
             name="fav_language"
             value="CSS"
+            className="mr-2 ml-1"
           />
           <label for="html">Careers</label>
            <input
@@ -83,6 +86,7 @@ function ContactUsForm() {
             id="css"
             name="fav_language"
             value="CSS"
+            className="mr-2 ml-1"
           /> 
           <label for="css">Feedback</label> 
           <input
@@ -90,6 +94,7 @@ function ContactUsForm() {
             id="javascript"
             name="fav_language"
             value="JavaScript"
+            className="mr-2 ml-1"
           />
             <label for="javascript">Others</label>
         </div>

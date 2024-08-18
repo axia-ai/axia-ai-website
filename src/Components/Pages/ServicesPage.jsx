@@ -12,15 +12,15 @@ import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgrou
 function Services() {
   return (
     <Layout
-      heroHeading={"Software Services"}
+      heroHeading={"Services We Provide"}
       heroPara={
-        "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 's"
+        "Empowering Businesses with Cutting-Edge AI Solutions Tailored for Innovation and Growth"
       }
     >
       <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
+        title={"Solutions Tailored to Your Needs"}
         description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
+          "Our team of experts will craft tailored solutions to optimize your operations, from new development to legacy system upgrades. Let us fuel your innovation and propel your company forward"
         }
         cards={ServiceCards}
       />

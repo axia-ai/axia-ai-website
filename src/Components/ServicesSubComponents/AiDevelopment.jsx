@@ -13,13 +13,13 @@ function AiDevelopment() {
       subPage={true}
       heroHeading={"AI Development"}
       heroPara={
-        "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 's"
+        "From chatbots to enterprise software, we provide a broad spectrum of AI development services designed to help organizations integrate intelligent solutions tailored to your unique challenges and deliver tangible business value."
       }
     >
       <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
+        title={"What Are AI Development Services?"}
         description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
+          "AI development services involve collaborating with specialized providers to create, deploy, and refine artificial intelligence systems, aiming to boost business performance. Instead of developing complex AI solutions internally, organizations can leverage comprehensive services from expert teams. These development experts assist clients in crafting a tailored AI strategy and pinpointing applicable AI technologies across various departments. They then design, integrate, and optimize intelligent algorithms and machine learning models based on prioritized areas to improve operations. This comprehensive approach is essential for the seamless implementation of AI systems, allowing businesses to adopt the technology with reduced risk."
         }
         cards={ServiceCards}
       />

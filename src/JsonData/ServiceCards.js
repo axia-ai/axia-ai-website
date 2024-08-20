@@ -15,10 +15,10 @@ export const ServiceCards = [
     linkAddress: "/services/chatgpt-integrations"
   },
   {
-    title: "Data Science",
+    title: "Data Engineering",
     description: "We empower businesses to transform raw data into actionable insights. These services include data mining, predictive modeling, statistical analysis, and the creation of custom algorithms. By leveraging advanced techniques, businesses can uncover trends, optimize operations, and make data-driven decisions. These services also include data visualization and reporting, enabling clear communication of insights. Ultimately, they help organizations enhance performance, reduce risks, and drive innovation in a data-centric world.",
     icon: GoDatabase,
-    linkAddress: "/services/data-science"
+    linkAddress: "/services/data-engineering"
   },
   {
     title: "Software Development",

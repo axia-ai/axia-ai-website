@@ -39,7 +39,7 @@ const Navbar = () => {
                   <CompanyLogo/>
                 </a>
                 <a href="/">
-                  <span class="text-xl font-kanit font-bold text-black">Axia</span>
+                  <span className="text-xl font-kanit font-bold text-black">Axia</span>
                 </a>
               </div>
             </div>

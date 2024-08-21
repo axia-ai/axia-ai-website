@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import { ServiceCards } from "../../JsonData/ServiceCards";
+import { FirstDeck } from "../../JsonData/Services/DataEngineering";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
 import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
@@ -21,7 +21,7 @@ function DataScience() {
         description={
           "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
         }
-        cards={ServiceCards}
+        cards={FirstDeck}
       />
       <Testimonial
         image={testimonial1}
@@ -39,7 +39,7 @@ function DataScience() {
         description={
           "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
         }
-        cards={ServiceCards}
+        cards={FirstDeck}
       />
       <TargetCard />
       <Testimonial
@@ -59,7 +59,7 @@ function DataScience() {
         description={
           "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
         }
-        cards={ServiceCards}
+        cards={FirstDeck}
       />
       <Testimonial
         image={testimonial1}

@@ -1,13 +1,13 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import { ServiceCards } from "../../JsonData/ServiceCards";
+import { FirstDeck } from "../../JsonData/Services/AIDevelopment";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
 import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
 import CtaServices from "../ServicesComponent/CtaServices";
 import TargetCard from "../ServicesComponent/TargetCard";
 
-function AiDevelopment() {
+function AIDevelopment() {
   return (
     <Layout
       subPage={true}
@@ -21,7 +21,7 @@ function AiDevelopment() {
         description={
           "AI development services involve collaborating with specialized providers to create, deploy, and refine artificial intelligence systems, aiming to boost business performance. Instead of developing complex AI solutions internally, organizations can leverage comprehensive services from expert teams. These development experts assist clients in crafting a tailored AI strategy and pinpointing applicable AI technologies across various departments. They then design, integrate, and optimize intelligent algorithms and machine learning models based on prioritized areas to improve operations. This comprehensive approach is essential for the seamless implementation of AI systems, allowing businesses to adopt the technology with reduced risk."
         }
-        cards={ServiceCards}
+        cards={FirstDeck}
       />
       <Testimonial
         image={testimonial1}
@@ -39,7 +39,7 @@ function AiDevelopment() {
         description={
           "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
         }
-        cards={ServiceCards}
+        cards={FirstDeck}
       />
       <TargetCard />
       <Testimonial
@@ -59,7 +59,7 @@ function AiDevelopment() {
         description={
           "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
         }
-        cards={ServiceCards}
+        cards={FirstDeck}
       />
       <Testimonial
         image={testimonial1}
@@ -76,4 +76,4 @@ function AiDevelopment() {
   );
 }
 
-export default AiDevelopment;
+export default AIDevelopment;

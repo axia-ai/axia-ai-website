@@ -37,23 +37,5 @@ export const FirstDeck = [
     description: "Our DevOps services streamline your software development and delivery process. We implement agile methodologies, automation tools, and continuous integration/continuous delivery (CI/CD) pipelines to improve efficiency, quality, and time-to-market. Our team of DevOps experts provides guidance, support, and tailored solutions to help you achieve operational excellence and accelerate digital transformation. We specialize in well-defined DevOps practices to optimize your development lifecycle and deliver high-quality software.",
     icon: GoDatabase,
     linkAddress: "/services/devops"
-  },
-  {
-    title: "Cybersecurity",
-    description: "Our cybersecurity services protect your digital assets from threats. We conduct comprehensive risk assessments, implement robust security measures, and provide incident response plans. Our team of cybersecurity experts stays up-to-date with the latest threats and best practices to safeguard your sensitive information and ensure business continuity. We specialize in cybersecurity services such as penetration testing, data privacy compliance, and threat intelligence to address your unique security needs and mitigate risks.",
-    icon: GoDatabase,
-    linkAddress: "/services/cybersecurity"
-  },
-  {
-    title: "App Development",
-    description: "Our app development services bring your ideas to life. We design, develop, and deploy innovative mobile and web applications that enhance your business. Our team of skilled developers leverages cutting-edge technologies to create user-friendly, high-performing apps that meet your specific needs. From concept to deployment, we provide end-to-end app development solutions tailored to your goals. We specialize in custom app development, UI/UX design, and app modernization to deliver exceptional digital experiences.",
-    icon: GoDatabase,
-    linkAddress: "/services/app-development"
-  },
-  {
-    title: "Internet of Things (IoT)",
-    description: "Our IoT services enable you to harness the power of connected devices. We design, develop, and implement IoT solutions tailored to your specific needs. We leverage cutting-edge technologies like sensor networks, cloud platforms, and data analytics to optimize operations, enhance efficiency, and gain valuable insights. Our expertise ensures reliable and scalable IoT solutions that drive innovation. We specialize in IoT device integration, data management, and predictive analytics to address your unique IoT challenges and unlock new opportunities.",
-    icon: GoDatabase,
-    linkAddress: "/services/iot"
   }
 ];

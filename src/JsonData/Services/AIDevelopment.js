@@ -21,39 +21,21 @@ export const FirstDeck = [
     linkAddress: ""
   },
   {
-    title: "Software Development",
-    description: "We create tailored software solutions that meet specific business needs. Unlike off-the-shelf software, custom software is designed and built from scratch to address unique requirements and integrate seamlessly with existing systems. This approach offers greater flexibility, control, and scalability, allowing businesses to optimize their operations and gain a competitive edge. Custom software development teams work closely with clients to understand their goals and deliver solutions that align with their vision and objectives.",
+    title: "Robotic Process Automation (RPA)",
+    description: "Our RPA solutions are designed to be scalable, flexible, and easy to implement. We leverage leading RPA platforms and tools to ensure seamless integration with your existing systems. Our team of RPA experts provides comprehensive support, from initial assessment to ongoing maintenance, ensuring the successful deployment and operation of your RPA solutions. By automating repetitive tasks, reducing manual errors, streamlining operations, and enhancing productivity, RPA can help you improve efficiency, reduce costs, empower your employees, and deliver exceptional customer service.",
     icon: GoDatabase,
-    linkAddress: "/services/software-development"
+    linkAddress: ""
   },
   {
-    title: "Cloud Computing",
-    description: "Our cloud computing services offer scalable, flexible, and cost-effective solutions tailored to your business needs. From infrastructure provisioning to application development and deployment, we provide comprehensive cloud solutions. Our expertise in leading public cloud providers like AWS, Azure, and GCP enables us to deliver secure, scalable, reliable, and performance-optimized cloud environments, helping you achieve your business goals. We specialize in cloud migrations to address your unique challenges and drive innovation.",
+    title: "AI Enterprise Software",
+    description: "Our AI enterprise software solutions empower businesses to leverage artificial intelligence for transformative results. We develop customized AI applications that automate processes, enhance decision-making, and drive innovation. Our team of AI experts combines technical proficiency with domain knowledge to deliver scalable and reliable AI solutions tailored to your specific needs. Our AI software empowers your business to achieve new heights while prioritizing ethical AI development, ensuring transparency, secure scalability, fairness, and accountability in our solutions.",
     icon: GoDatabase,
-    linkAddress: "/services/cloud-computing"
+    linkAddress: ""
   },
   {
-    title: "DevOps",
-    description: "Our DevOps services streamline your software development and delivery process. We implement agile methodologies, automation tools, and continuous integration/continuous delivery (CI/CD) pipelines to improve efficiency, quality, and time-to-market. Our team of DevOps experts provides guidance, support, and tailored solutions to help you achieve operational excellence and accelerate digital transformation. We specialize in well-defined DevOps practices to optimize your development lifecycle and deliver high-quality software.",
+    title: "AI-as-a-Service (AIaaS)",
+    description: "Our AI-as-a-Service (AIaaS) solutions provide flexible access to advanced AI capabilities without the need for significant upfront investment. We offer a range of AI services, including natural language processing, machine learning, and computer vision, tailored to your specific requirements. Our AIaaS platform enables you to leverage AI technology to automate tasks, improve decision-making, and gain valuable insights. With our pay-as-you-go pricing model, you can scale your AI resources to meet your evolving needs designed to be user-friendly and accessible.",
     icon: GoDatabase,
-    linkAddress: "/services/devops"
-  },
-  {
-    title: "Cybersecurity",
-    description: "Our cybersecurity services protect your digital assets from threats. We conduct comprehensive risk assessments, implement robust security measures, and provide incident response plans. Our team of cybersecurity experts stays up-to-date with the latest threats and best practices to safeguard your sensitive information and ensure business continuity. We specialize in cybersecurity services such as penetration testing, data privacy compliance, and threat intelligence to address your unique security needs and mitigate risks.",
-    icon: GoDatabase,
-    linkAddress: "/services/cybersecurity"
-  },
-  {
-    title: "App Development",
-    description: "Our app development services bring your ideas to life. We design, develop, and deploy innovative mobile and web applications that enhance your business. Our team of skilled developers leverages cutting-edge technologies to create user-friendly, high-performing apps that meet your specific needs. From concept to deployment, we provide end-to-end app development solutions tailored to your goals. We specialize in custom app development, UI/UX design, and app modernization to deliver exceptional digital experiences.",
-    icon: GoDatabase,
-    linkAddress: "/services/app-development"
-  },
-  {
-    title: "Internet of Things (IoT)",
-    description: "Our IoT services enable you to harness the power of connected devices. We design, develop, and implement IoT solutions tailored to your specific needs. We leverage cutting-edge technologies like sensor networks, cloud platforms, and data analytics to optimize operations, enhance efficiency, and gain valuable insights. Our expertise ensures reliable and scalable IoT solutions that drive innovation. We specialize in IoT device integration, data management, and predictive analytics to address your unique IoT challenges and unlock new opportunities.",
-    icon: GoDatabase,
-    linkAddress: "/services/iot"
+    linkAddress: ""
   }
 ];

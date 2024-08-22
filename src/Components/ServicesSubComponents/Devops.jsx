@@ -11,54 +11,16 @@ function Devops() {
   return (
     <Layout
       subPage={true}
-      heroHeading={"Devops"}
+      heroHeading={"DevOps"}
       heroPara={
-        "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 's"
+        "Accelerate Your AI Development Lifecycles with Modern Deployment Strategies"
       }
       DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
+        title={"What is DevOps/MLOps?"}
         description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
-        }
-        cards={FirstDeck}
-      />
-      <Testimonial
-        image={testimonial1}
-        imagePosition={"left"}
-        testimonialHeading={"Social Media Mobile App and Website"}
-        serviceType={"Mobile App and Website Development"}
-        clientName={"Quila Flower LLC/Quick Friends"}
-        testimonialPara={
-          "Our client wanted to create a way for people, especially those from military families like hers, to create real-life friendships quickly. She wanted to create a social networking custom cross-platform app that integrated events and chat to help people connect with new friends on a deeper, more meaningful basis."
-        }
-        clientQuote={"They’re one of the best vendors I’ve worked with."}
-      />
-      <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
-        description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
-        }
-        cards={FirstDeck}
-      />
-      <TargetCard />
-      <Testimonial
-        image={testimonial1}
-        imagePosition={"right"}
-        testimonialHeading={"Social Media Mobile App and Website"}
-        serviceType={"Mobile App and Website Development"}
-        clientName={"Quila Flower LLC/Quick Friends"}
-        testimonialPara={
-          "Our client wanted to create a way for people, especially those from military families like hers, to create real-life friendships quickly. She wanted to create a social networking custom cross-platform app that integrated events and chat to help people connect with new friends on a deeper, more meaningful basis."
-        }
-        clientQuote={"They’re one of the best vendors I’ve worked with."}
-      />
-      <CtaServices />
-      <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
-        description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
+          "DevOps is a collaborative approach that integrates development and operations teams to streamline software delivery. It emphasizes communication, automation, and continuous improvement. MLOps is a specialized subset of DevOps focused on machine learning models, aiming to streamline their development, deployment, and maintenance."
         }
         cards={FirstDeck}
       />

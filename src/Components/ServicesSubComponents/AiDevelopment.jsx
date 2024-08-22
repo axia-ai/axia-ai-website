@@ -13,7 +13,7 @@ function AIDevelopment() {
       subPage={true}
       heroHeading={"AI Development"}
       heroPara={
-        "From chatbots to enterprise software, we provide a broad spectrum of AI development services designed to help organizations integrate intelligent solutions tailored to your unique challenges and deliver tangible business value."
+        "Custom AI Solutions for Your Business"
       }
     >
       <PinkBackgroundWithCardsComponent

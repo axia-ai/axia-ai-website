@@ -11,54 +11,16 @@ function SoftwareDevelopment() {
   return (
     <Layout
       subPage={true}
-      heroHeading={"Cloud Computing"}
+      heroHeading={"Software Development"}
       heroPara={
-        "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 's"
+        "Software Solutions That Drives Innovation"
       }
       DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
+        title={"What Is Software Development?"}
         description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
-        }
-        cards={FirstDeck}
-      />
-      <Testimonial
-        image={testimonial1}
-        imagePosition={"left"}
-        testimonialHeading={"Social Media Mobile App and Website"}
-        serviceType={"Mobile App and Website Development"}
-        clientName={"Quila Flower LLC/Quick Friends"}
-        testimonialPara={
-          "Our client wanted to create a way for people, especially those from military families like hers, to create real-life friendships quickly. She wanted to create a social networking custom cross-platform app that integrated events and chat to help people connect with new friends on a deeper, more meaningful basis."
-        }
-        clientQuote={"They’re one of the best vendors I’ve worked with."}
-      />
-      <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
-        description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
-        }
-        cards={FirstDeck}
-      />
-      <TargetCard />
-      <Testimonial
-        image={testimonial1}
-        imagePosition={"right"}
-        testimonialHeading={"Social Media Mobile App and Website"}
-        serviceType={"Mobile App and Website Development"}
-        clientName={"Quila Flower LLC/Quick Friends"}
-        testimonialPara={
-          "Our client wanted to create a way for people, especially those from military families like hers, to create real-life friendships quickly. She wanted to create a social networking custom cross-platform app that integrated events and chat to help people connect with new friends on a deeper, more meaningful basis."
-        }
-        clientQuote={"They’re one of the best vendors I’ve worked with."}
-      />
-      <CtaServices />
-      <PinkBackgroundWithCardsComponent
-        title={"Analytics that feels like it’s from the future"}
-        description={
-          "Analytics that feels like it’s from the future analytics that feels like it’s from the future"
+          "Beyond cost savings, custom software can revolutionize your operations. By consolidating data, automating tasks, and streamlining workflows, you'll gain deeper insights, enhance productivity, and adapt to changing markets. But the benefits extend beyond efficiency. Custom solutions can improve customer experience, enrich data utility, and foster collaboration across departments. With the right partner guiding strategic alignment, meticulous planning, and skilled engineering, your custom technology will unlock unparalleled competitive advantages."
         }
         cards={FirstDeck}
       />

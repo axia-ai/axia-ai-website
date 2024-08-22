@@ -24,11 +24,7 @@ function Services() {
         }
         cards={ServiceCards}
       />
-      <TrustedField />
-      <ServicesAccordainsection/>
-      <FeaturesServices/>
       <TestimonialsServices/>
-      <CtaServices/>
     </Layout>
   );
 }

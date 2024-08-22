@@ -3,22 +3,22 @@ import { GoDatabase } from "react-icons/go";
 
 export const FirstDeck = [
   {
-    title: "AI Development",
-    description: "We provide tailored solutions that harness the power of artificial intelligence to address specific business challenges and opportunities. This includes building custom machine learning models, developing AI-driven applications, and integrating AI into existing systems. By automating processes, enhancing decision-making, and driving innovation, these services help businesses improve operational efficiency, reduce costs, gain valuable insights, and stay competitive in an increasingly data-driven and technology-focused world.",
+    title: "Intelligent AI Assistants and Chatbots",
+    description: "We specialize in developing Smart AI Assistants and Chatbots tailored to your business needs and integrate these solutions into your digital platforms, enabling efficient 24/7 customer support and internal communication. Leveraging advanced natural language processing and machine learning, our AI-driven systems provide personalized, context-aware interactions that enhance user experience, streamline operations, and drive customer satisfaction. Our solutions are scalable and adaptable, designed to grow with your business while continuously learning from user interactions to deliver even more precise and valuable insights.",
     icon: GoDatabase,
-    linkAddress: "/services/ai-development"
+    linkAddress: ""
   },
   {
-    title: "ChatGPT Integrations",
-    description: "We enable businesses to embed Generative AI capabilities such as virtual assistants, chatbots, and content generation to improve engagement, streamline operations, and provide personalized, real-time responses that enhance customer satisfaction into their platforms. These integrations can be scaled and fine-tuned to ensure consistent performance across different channels and can adapted for specific industries, making it a valuable tool for driving innovation and staying competitive in a rapidly evolving digital landscape.",
+    title: "AI Product Development",
+    description: "Our AI product development services leverage cutting-edge technologies to create intelligent solutions tailored to your business needs. From natural language processing to machine learning and computer vision, we build AI-powered products that automate tasks, enhance efficiency, and drive innovation. Our team of AI experts provides end-to-end development, ensuring your AI products are reliable, scalable, and deliver exceptional value. We specialize in custom AI models to address your unique AI challenges and unlock new opportunities. We prioritize ethical AI development, ensuring transparency, fairness, and accountability in our solutions.",
     icon: GoDatabase,
-    linkAddress: "/services/chatgpt-integrations"
+    linkAddress: ""
   },
   {
-    title: "Data Engineering",
-    description: "We empower businesses to transform raw data into actionable insights. These services include data mining, predictive modeling, statistical analysis, and the creation of custom algorithms. By leveraging advanced techniques, businesses can uncover trends, optimize operations, and make data-driven decisions. These services also include data visualization and reporting, enabling clear communication of insights. Ultimately, they help organizations enhance performance, reduce risks, and drive innovation in a data-centric world.",
+    title: "Recommendation Engines",
+    description: "Our recommendation engine development services are oriented towards building intelligent systems that analyze user behavior, preferences, and interactions to provide relevant suggestions for products, services, or content to drive engagement, increase customer satisfaction, and boost sales by offering personalized experiences. Our team of data scientists and engineers specializes in developing and implementing sophisticated recommendation systems that can be seamlessly integrated into your existing platforms. We leverage techniques like collaborative filtering, content-based filtering, and hybrid approaches to deliver accurate, user-specific and relevant recommendations.",
     icon: GoDatabase,
-    linkAddress: "/services/data-engineering"
+    linkAddress: ""
   },
   {
     title: "Software Development",

@@ -15,7 +15,6 @@ function IOT() {
       heroPara={
         "Innovative IoT Solutions Tailored to Your Needs"
       }
-      DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
         title={"What Is Internet Of Things (IoT)?"}

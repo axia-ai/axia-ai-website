@@ -15,7 +15,6 @@ function AppDevelopment() {
       heroPara={
         "Elevate Your Business with Mobile Apps"
       }
-      DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
         title={"What is App Development?"}

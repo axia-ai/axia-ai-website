@@ -15,7 +15,6 @@ function CloudComputing() {
       heroPara={
         "Scalable, Flexible, Reliable and Highly-Available Cloud Solutions"
       }
-      DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
         title={"What Is Cloud Computing?"}

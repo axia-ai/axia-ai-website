@@ -19,6 +19,9 @@ import Cybersecurity from "./Components/ServicesSubComponents/Cybersecurity.jsx"
 import DevOps from "./Components/ServicesSubComponents/Devops.jsx";
 import IOT from "./Components/ServicesSubComponents/IOT.jsx";
 import SoftwareDevelopment from "./Components/ServicesSubComponents/SoftwareDevelopment.jsx";
+// Industries Sub Components Files Imports
+import Healthcare from "./Components/IndustriesSubSection/Healthcare.jsx";
+import Finance from "./Components/IndustriesSubSection/Finance.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -51,6 +54,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           />
           {/* Services Sub Components End */}
           <Route path="/industries" element={<IndustriesPage />} />
+          {/* Industries Sub Components Start */}
+          <Route path="/industries/healthcare" element={<Healthcare />} />
+          <Route path="/industries/finance" element={<Finance />} />
+          {/* Industries Sub Components End */}
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/aboutUs" element={<AboutUsPage />} />
           <Route path="/contactUs" element={<ContactUsPage />} />

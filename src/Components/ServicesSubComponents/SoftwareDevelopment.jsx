@@ -15,7 +15,6 @@ function SoftwareDevelopment() {
       heroPara={
         "Software Solutions That Drives Innovation"
       }
-      DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
         title={"What Is Software Development?"}

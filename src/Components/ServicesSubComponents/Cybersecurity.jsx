@@ -15,7 +15,6 @@ function Cybersecurity() {
       heroPara={
         "Safeguarding Your Digital World"
       }
-      DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
         title={"What Is Cybersecurity?"}

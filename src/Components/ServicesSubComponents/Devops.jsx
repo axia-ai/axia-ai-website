@@ -15,7 +15,6 @@ function Devops() {
       heroPara={
         "Accelerate Your AI Development Lifecycles with Modern Deployment Strategies"
       }
-      DisplayComponent={true}
     >
       <PinkBackgroundWithCardsComponent
         title={"What is DevOps/MLOps?"}

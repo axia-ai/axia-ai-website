@@ -10,7 +10,7 @@ function Card({title, description, icon, linkAddress}) {
             <p className="text-gray-600 mt-2 text-sm sm:text-base">
                 {description}
             </p>
-            <a href={linkAddress} className="text-primary mt-4 inline-block font-semibold hover:text-primaryHover">Learn More &rarr;</a>
+            {linkAddress && <a href={linkAddress} className="text-primary mt-4 inline-block font-semibold hover:text-primaryHover">Learn More &rarr;</a>}
         </div>
     )
 }

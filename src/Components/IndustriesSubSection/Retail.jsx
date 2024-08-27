@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import { HealthCareCards } from "../../JsonData/Industries/Healthcare";
+import { RetailCards } from "../../JsonData/Industries/Retail";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
 import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
@@ -19,7 +19,7 @@ function Retail() {
         description={
           "AI development services involve collaborating with specialized providers to create, deploy, and refine artificial intelligence systems, aiming to boost business performance. Instead of developing complex AI solutions internally, organizations can leverage comprehensive services from expert teams. These development experts assist clients in crafting a tailored AI strategy and pinpointing applicable AI technologies across various departments. They then design, integrate, and optimize intelligent algorithms and machine learning models based on prioritized areas to improve operations. This comprehensive approach is essential for the seamless implementation of AI systems, allowing businesses to adopt the technology with reduced risk."
         }
-        cards={HealthCareCards}
+        cards={RetailCards}
       />
       <Testimonial
         image={testimonial1}
@@ -37,7 +37,7 @@ function Retail() {
         description={
           "AI development services involve collaborating with specialized providers to create, deploy, and refine artificial intelligence systems, aiming to boost business performance. Instead of developing complex AI solutions internally, organizations can leverage comprehensive services from expert teams. These development experts assist clients in crafting a tailored AI strategy and pinpointing applicable AI technologies across various departments. They then design, integrate, and optimize intelligent algorithms and machine learning models based on prioritized areas to improve operations. This comprehensive approach is essential for the seamless implementation of AI systems, allowing businesses to adopt the technology with reduced risk."
         }
-        cards={HealthCareCards}
+        cards={RetailCards}
       />
       <TargetCard />
       <Testimonial
@@ -56,7 +56,7 @@ function Retail() {
         description={
           "AI development services involve collaborating with specialized providers to create, deploy, and refine artificial intelligence systems, aiming to boost business performance. Instead of developing complex AI solutions internally, organizations can leverage comprehensive services from expert teams. These development experts assist clients in crafting a tailored AI strategy and pinpointing applicable AI technologies across various departments. They then design, integrate, and optimize intelligent algorithms and machine learning models based on prioritized areas to improve operations. This comprehensive approach is essential for the seamless implementation of AI systems, allowing businesses to adopt the technology with reduced risk."
         }
-        cards={HealthCareCards}
+        cards={RetailCards}
       />
       <Testimonial
         image={testimonial1}

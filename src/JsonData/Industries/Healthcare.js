@@ -3,38 +3,38 @@ import { GoDatabase } from "react-icons/go";
 
 export const HealthCareCards = [
   {
-    title: "Healthcare",
-    description: "We provide tailored solutions that harness the power of artificial intelligence to address specific business challenges and opportunities. This includes building custom machine learning models, developing AI-driven applications, and integrating AI into existing systems. By automating processes, enhancing decision-making, and driving innovation, these services help businesses improve operational efficiency, reduce costs, gain valuable insights, and stay competitive in an increasingly data-driven and technology-focused world.",
+    title: "Improved Diagnosis",
+    description: "AI algorithms can analyze medical images, such as X-rays and MRIs, to assist healthcare professionals in making accurate and timely diagnoses. This can lead to earlier detection of diseases and more effective treatment plans.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Finance",
-    description: "We enable businesses to embed Generative AI capabilities such as virtual assistants, chatbots, and content generation to improve engagement, streamline operations, and provide personalized, real-time responses that enhance customer satisfaction into their platforms. These integrations can be scaled and fine-tuned to ensure consistent performance across different channels and can adapted for specific industries, making it a valuable tool for driving innovation and staying competitive in a rapidly evolving digital landscape.",
+    title: "Personalized Treatment Plans",
+    description: "AI can analyze patient data, including medical history, genetics, and lifestyle factors to develop personalized treatment plans. This can improve patient outcomes, reduce the risk of adverse side effects, and enhance overall healthcare experiences.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Retail",
-    description: "We empower businesses to transform raw data into actionable insights. These services include data mining, predictive modeling, statistical analysis, and the creation of custom algorithms. By leveraging advanced techniques, businesses can uncover trends, optimize operations, and make data-driven decisions. These services also include data visualization and reporting, enabling clear communication of insights. Ultimately, they help organizations enhance performance, reduce risks, and drive innovation in a data-centric world.",
+    title: "Accelerated Drug Discovery",
+    description: "AI can speed up the process of discovering new drugs by analyzing vast amounts of data to identify potential drug targets and optimize drug design which can lead to new treatments for diseases that currently lack effective options.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Manufacturing",
-    description: "We create tailored software solutions that meet specific business needs. Unlike off-the-shelf software, custom software is designed and built from scratch to address unique requirements and integrate seamlessly with existing systems. This approach offers greater flexibility, control, and scalability, allowing businesses to optimize their operations and gain a competitive edge. Custom software development teams work closely with clients to understand their goals and deliver solutions that align with their vision and objectives.",
+    title: "Administrative Efficiency",
+    description: "AI can automate administrative tasks, such as scheduling appointments, processing claims, and managing medical records. This frees up healthcare professionals to focus on patient care and improves the overall efficiency of healthcare systems.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Education",
-    description: "Our cloud computing services offer scalable, flexible, and cost-effective solutions tailored to your business needs. From infrastructure provisioning to application development and deployment, we provide comprehensive cloud solutions. Our expertise in leading public cloud providers like AWS, Azure, and GCP enables us to deliver secure, scalable, reliable, and performance-optimized cloud environments, helping you achieve your business goals. We specialize in cloud migrations to address your unique challenges and drive innovation.",
+    title: "Remote Patient Monitoring",
+    description: "AI-powered devices can monitor patients remotely, enabling early detection of health problems and more proactive care. This can be particularly beneficial for patients with chronic conditions or those living in remote areas.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Supply Chain",
-    description: "Our DevOps services streamline your software development and delivery process. We implement agile methodologies, automation tools, and continuous integration/continuous delivery (CI/CD) pipelines to improve efficiency, quality, and time-to-market. Our team of DevOps experts provides guidance, support, and tailored solutions to help you achieve operational excellence and accelerate digital transformation. We specialize in well-defined DevOps practices to optimize your development lifecycle and deliver high-quality software.",
+    title: "Fraud Prevention",
+    description: "AI can identify fraudulent activity in healthcare claims, reducing costs and improving the efficiency of systems. By detecting and preventing fraud, AI can help protect healthcare resources and ensure that they are used effectively.",
     icon: GoDatabase,
     linkAddress: ""
   },

@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from "../ReusableComponents/Button";
 
-const SocialMediaComponent = ({ image, imagePosition, testimonialHeading, serviceType, clientName, testimonialPara, clientQuote }) => {
+const SocialMediaComponent = ({ image, imagePosition, testimonialHeading, serviceType, clientName, industry, testimonialPara, clientQuote }) => {
   const isImageRight = imagePosition === 'right';
 
   return (
@@ -15,11 +15,12 @@ const SocialMediaComponent = ({ image, imagePosition, testimonialHeading, servic
         <div className="block leading-8">
             <p className="font-semibold mb-1">Service Type: <span className="font-normal">{serviceType}</span></p>
             <p className="font-semibold mb-1">Client: <span className="font-normal">{clientName}</span></p>
+            <p className="font-semibold mb-1">Industry: <span className="font-normal">{industry}</span></p>
         </div>
         <p className="mb-4 text-sm sm:text-md">
             {testimonialPara}
         </p>
-        <Button color="purple">Read More</Button>
+        {/* <Button color="purple">Read More</Button> */}
       </div>
     </div>
   );

@@ -133,33 +133,33 @@ export default function Footer() {
           </div>
           <div className=" flex flex-col max-md:items-center">
             <div className="my-6 flex flex-col ">
-              <h3 className="font-bold text-lg mb-5">Our Locations 3</h3>
+              <h3 className="font-bold text-lg mb-5">Our Locations</h3>
               <ul className="space-y-2">
                 <li>
                   <div className="justify-items-start mb-5 max-md:justify-center">
                     <div className="flex ">
                       <img src={IndianFlag} alt="India" className="w-12 h-6 rounded-sm"/>
-                      <h1 className="ml-2 text-lg">Mumbia India</h1>
+                      <h1 className="ml-2 text-lg">Mumbai, India</h1>
                     </div>
-                    <h1 className="text-sm mt-1">5319 University Dr.Suite 400</h1>
+                    {/* <h1 className="text-sm mt-1">5319 University Dr.Suite 400</h1> */}
                   </div>
                 </li>
                 <li>
                   <div className="justify-items-start  mb-5 ">
                     <div className="flex ">
                       <img src={JapanFlag} alt="Japan" className="w-12 h-6 rounded-sm"/>
-                      <h1 className="ml-2 text-lg">Tokyo Japan</h1>
+                      <h1 className="ml-2 text-lg">Tokyo, Japan</h1>
                     </div>
-                    <h1 className="text-sm mt-1">5319 University Dr.Suite 400</h1>
+                    {/* <h1 className="text-sm mt-1">5319 University Dr.Suite 400</h1> */}
                   </div>
                 </li>
                 <li>
                   <div className="justify-items-start">
                     <div className="flex ">
                       <img src={USAFlag} alt="USA" className="w-12 h-6 rounded-sm" />
-                      <h1 className="ml-2 text-lg">New York USA</h1>
+                      <h1 className="ml-2 text-lg">New York, USA</h1>
                     </div>
-                    <h1 className="text-sm mt-1">5319 University Dr.Suite 400</h1>
+                    {/* <h1 className="text-sm mt-1">5319 University Dr.Suite 400</h1> */}
                   </div>
                 </li>
               </ul>

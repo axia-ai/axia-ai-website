@@ -22,6 +22,16 @@ import SoftwareDevelopment from "./Components/ServicesSubComponents/SoftwareDeve
 // Industries Sub Components Files Imports
 import Healthcare from "./Components/IndustriesSubSection/Healthcare.jsx";
 import Finance from "./Components/IndustriesSubSection/Finance.jsx";
+import Retail from "./Components/IndustriesSubSection/Retail.jsx";
+import Education from "./Components/IndustriesSubSection/Education.jsx";
+import Energy from "./Components/IndustriesSubSection/Energy.jsx";
+import EntertainmentAndMedia from "./Components/IndustriesSubSection/EntertainmentAndMedia.jsx";
+import GovtAndPublicSector from "./Components/IndustriesSubSection/GovtAndPublicSector.jsx";
+import Manufacturing from "./Components/IndustriesSubSection/Manufacturing.jsx";
+import SupplyChain from "./Components/IndustriesSubSection/SupplyChain.jsx";
+import Telecommunications from "./Components/IndustriesSubSection/Telecommunications.jsx";
+import Legal from "./Components/IndustriesSubSection/Legal.jsx";
+import RealEstate from "./Components/IndustriesSubSection/RealEstate.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -57,6 +67,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           {/* Industries Sub Components Start */}
           <Route path="/industries/healthcare" element={<Healthcare />} />
           <Route path="/industries/finance" element={<Finance />} />
+          <Route path="/industries/retail" element={<Retail />} />
+          <Route path="/industries/education" element={<Education />} />
+          <Route path="/industries/energy" element={<Energy />} />
+          <Route path="/industries/entertainment-and-media" element={<EntertainmentAndMedia />} />
+          <Route path="/industries/government-and-public-sector" element={<GovtAndPublicSector />} />
+          <Route path="/industries/manufacturing" element={<Manufacturing />} />
+          <Route path="/industries/supply-chain" element={<SupplyChain />} />
+          <Route path="/industries/telecommunications" element={<Telecommunications />} />
+          <Route path="/industries/legal" element={<Legal />} />
+          <Route path="/industries/real-estate" element={<RealEstate />} />
           {/* Industries Sub Components End */}
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/aboutUs" element={<AboutUsPage />} />

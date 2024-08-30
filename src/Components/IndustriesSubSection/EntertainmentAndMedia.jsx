@@ -1,25 +1,25 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import { RetailCards } from "../../JsonData/Industries/Retail";
+import { EducationCards } from "../../JsonData/Industries/Education";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
 import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
 import TargetCard from "../ServicesComponent/TargetCard";
 import MessageForm from "../ReusableComponents/MessageForm";
 
-function Retail() {
+function EntertainmentAndMedia() {
   return (
     <Layout
       subPage={true}
-      heroHeading={"Retail"}
-      heroPara={"AI-Driven Retail Solutions for a Better Future"}
+      heroHeading={"Entertainment And Media"}
+      heroPara={"AI-Driven Entertainment And Media Solutions for a Better Future"}
     >
       <PinkBackgroundWithCardsComponent
-        title={"How Can AI Elevate Retail?"}
+        title={"How Can AI Elevate Entertainment And Media?"}
         description={
-          "AI can revolutionize retail by improving diagnosis, personalizing treatment plans, accelerating drug discovery, automating administrative tasks, enabling remote patient monitoring, and preventing fraud. These advancements lead to better patient outcomes, increased efficiency, and reduced costs in the retail system."
+          "AI can revolutionize education by improving diagnosis, personalizing treatment plans, accelerating drug discovery, automating administrative tasks, enabling remote patient monitoring, and preventing fraud. These advancements lead to better patient outcomes, increased efficiency, and reduced costs in the education system."
         }
-        cards={RetailCards}
+        cards={EducationCards}
       />
       <Testimonial
         image={testimonial1}
@@ -36,4 +36,4 @@ function Retail() {
   );
 }
 
-export default Retail;
+export default EntertainmentAndMedia;

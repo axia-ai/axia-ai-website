@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import { EducationCards } from "../../JsonData/Industries/Education";
+import { EntertainmentAndMediaCards } from "../../JsonData/Industries/EntertainmentAndMedia";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
 import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
@@ -19,7 +19,7 @@ function EntertainmentAndMedia() {
         description={
           "AI can revolutionize education by improving diagnosis, personalizing treatment plans, accelerating drug discovery, automating administrative tasks, enabling remote patient monitoring, and preventing fraud. These advancements lead to better patient outcomes, increased efficiency, and reduced costs in the education system."
         }
-        cards={EducationCards}
+        cards={EntertainmentAndMediaCards}
       />
       <Testimonial
         image={testimonial1}

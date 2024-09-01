@@ -7,7 +7,7 @@ const DropdownMenu = ({
   handleMouseEnter,
 }) => (
   <ul 
-        className="absolute left-0 mt-1 space-y-2 bg-white border border-gray-200 rounded-md shadow-lg z-10 transition-all duration-300 ease-linear block">
+        className="absolute  space-y-2 bg-white border border-gray-200 rounded-md shadow-lg z-20 transition-all duration-300 ease-linear block">
     {dropdownItems.map((item) => (
       <li
     //   onMouseEnter={handleMouseEnter}

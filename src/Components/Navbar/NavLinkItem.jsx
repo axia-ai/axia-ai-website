@@ -18,7 +18,7 @@ const NavLinkItem = ({ name, href, dropdownItems }) => {
     timeoutRef.current = setTimeout(() => {
       console.log("Mouse Leave");
       setIsDropdownOpen(false);
-    }, 1000); // Adjust the delay as needed
+    }, 100); // Adjust the delay as needed
   };
 
   return (

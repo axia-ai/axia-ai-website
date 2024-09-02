@@ -16,13 +16,13 @@ export const TelecommunicationsCards = [
   },
   {
     title: "Predictive Maintenance",
-    description: "AI-powered predictive maintenance can analyze network data to predict equipment failures and network outages. This allows for proactive maintenance, reducing downtime and ensuring network reliability.",
+    description: "AI-powered predictive maintenance can analyze network data to predict equipment failures and network outages, allowing for proactive maintenance and reducing downtime. This can significantly improve network reliability and prevent disruptions to critical services.",
     icon: IoIosSettings,
     linkAddress: ""
   },
   {
     title: "Fraud Detection",
-    description: "AI-powered algorithms can detect fraudulent activity, such as SIM card fraud, call spoofing, and unauthorized access. This helps protect customers and networks from financial losses and security breaches.",
+    description: "AI-powered algorithms can detect fraudulent activity, such as SIM card fraud, call spoofing, and unauthorized access, protecting customers and networks from financial losses and security breaches. This helps maintain the integrity of telecommunications systems.",
     icon: FaUserSecret,
     linkAddress: ""
   },
@@ -40,7 +40,7 @@ export const TelecommunicationsCards = [
   },
   {
     title: "Network Security",
-    description: "AI can detect and prevent security threats, such as cyberattacks and data breaches, protecting networks and customer information. AI-powered security solutions can monitor network traffic, identify anomalies, and respond to threats in real-time.",
+    description: "AI can detect and prevent security threats, such as cyberattacks and data breaches, protecting networks and customer information. AI security solutions can monitor network traffic, identify anomalies, and respond to threats in real-time.",
     icon: MdOutlineSecurity,
     linkAddress: ""
   },

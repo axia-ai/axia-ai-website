@@ -15,7 +15,7 @@ export const RealEstateCards = [
   },
   {
     title: "Lead Generation",
-    description: "AI can identify potential leads based on customer behavior, demographics, and preferences. By analyzing data from various sources, AI can help real estate agents target the right customers and increase their chances of closing deals.",
+    description: "AI can identify potential leads based on customer behavior, demographics, and preferences. By analyzing data from various sources, AI can help real estate agents target the right customers and increase their chances of closing deals effectively and efficiently.",
     icon: SiGoogleadsense,
     linkAddress: ""
   },
@@ -27,13 +27,13 @@ export const RealEstateCards = [
   },
   {
     title: "Virtual Tours",
-    description: "AI-powered virtual tours can provide immersive experiences for potential buyers, allowing them to explore properties from the comfort of their own homes. This can save time and effort for both buyers and sellers, and increase the likelihood of making informed decisions.",
+    description: "AI-powered virtual tours can provide immersive experiences for potential buyers, allowing them to explore properties from the comfort of their own homes. This can save time and effort for both buyers and sellers, and increase the likelihood of making informed decisions by re-imagining luxury living.",
     icon: FaLaptopHouse,
     linkAddress: ""
   },
   {
     title: "Predictive Analytics",
-    description: "AI can analyze market data to predict future trends, such as changes in property values, interest rates, and demand. This information can help real estate professionals anticipate market shifts and make informed investment decisions.",
+    description: "AI can analyze market data to predict future trends, such as changes in property values, interest rates, and demand. This information can help real estate professionals anticipate market shifts and make informed investment decisions, gaining a competitive edge in the real-estate industry.",
     icon: IoIosAnalytics,
     linkAddress: ""
   },

@@ -16,7 +16,7 @@ export const LegalCards = [
   },
   {
     title: "Contract Review and Analysis",
-    description: "AI can review and analyze legal contracts, identifying potential risks, inconsistencies, and omissions. This can help legal teams ensure that contracts are fair, comprehensive, and compliant with relevant laws and regulations. AI can also automate the process of reviewing and redlining contracts, saving time and reducing errors.",
+    description: "AI can review and analyze legal contracts, identifying potential risks, inconsistencies, and omissions. This can help legal teams ensure that contracts are fair, comprehensive, and compliant with relevant laws and regulations. AI can also automate the process of reviewing and redlining contracts to save time and errors.",
     icon: MdOutlinePreview,
     linkAddress: ""
   },
@@ -40,7 +40,7 @@ export const LegalCards = [
   },
   {
     title: "Client Communication",
-    description: "AI-powered chatbots and virtual assistants can provide automated legal advice and answer client inquiries, improving client satisfaction and efficiency. This can free up legal professionals to focus on more complex tasks and provide personalized advice to clients.",
+    description: "AI-powered chatbots and virtual assistants can provide automated legal advice and answer client inquiries, improving client satisfaction and efficiency. This can free up legal professionals to focus on more complex tasks and provide personalized advice to clients, ultimately enhancing the overall quality of legal services in the ever-changing landscape.",
     icon: GiSatelliteCommunication,
     linkAddress: ""
   },

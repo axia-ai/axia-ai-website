@@ -21,7 +21,7 @@ export const GovtAndPublicSectorCards = [
   },
   {
     title: "Enhanced Citizen Services",
-    description: "AI can improve citizen services by enabling personalized interactions, automating tasks, and providing 24/7 support. For example, AI-powered chatbots can answer citizen inquiries, automate service requests, and provide personalized recommendations.",
+    description: "AI can improve citizen services by enabling personalized interactions, automating tasks, and providing 24/7 support. AI-powered chatbots can answer citizen inquiries, automate service requests, and provide personalized recommendations, improving the overall efficiency of government services.",
     icon: FaUserPlus,
     linkAddress: ""
   },

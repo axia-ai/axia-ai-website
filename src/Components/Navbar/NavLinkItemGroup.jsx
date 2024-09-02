@@ -8,18 +8,33 @@ const NavLinkItemGroup = () => (
       name="Services"
       href="/services"
       dropdownItems={[
-        { name: "Service 1", href: "/services/service1" },
-        { name: "Service 2", href: "/services/service2" },
-        { name: "Service 3", href: "/services/service3" },
+        { name: "AI Development", href: "/services/ai-development" },
+        { name: "ChatGPT Integrations", href: "/services/chatgpt-integrations" },
+        { name: "Data Engineering", href: "/services/data-engineering" },
+        { name: "Software Development", href: "/services/software-development" },
+        { name: "Cloud Computing", href: "/services/cloud-computing" },
+        { name: "DevOps", href: "/services/devops" },
+        { name: "Cybersecurity", href: "/services/cybersecurity" },
+        { name: "App Development", href: "/services/app-development" },
+        { name: "Internet of Things (IoT)", href: "/services/iot" },
       ]}
     />
     <NavLinkItem
       name="Industries"
       href="/industries"
       dropdownItems={[
-        { name: "Industries 1", href: "/industries/industries1" },
-        { name: "Industries 2", href: "/industries/industries2" },
-        { name: "Industries 3", href: "/industries/industries3" },
+        { name: "Healthcare", href: "/industries/healthcare" },
+        { name: "Finance", href: "/industries/finance" },
+        { name: "Retail", href: "/industries/retail" },
+        { name: "Manufacturing", href: "/industries/manufacturing" },
+        { name: "Education", href: "/industries/education" },
+        { name: "Supply Chain", href: "/industries/supply-chain" },
+        { name: "Telecommunications", href: "/industries/telecommunications" },
+        { name: "Energy", href: "/industries/energy" },
+        { name: "Real Estate", href: "/industries/real-estate" },
+        { name: "Legal", href: "/industries/legal" },
+        { name: "Entertainment & Media", href: "/industries/entertainment-and-media" },
+        { name: "Government & Public Sector", href: "/industries/government-and-public-sector" },
       ]}
     />
     <NavLinkItem name="Testimonials" href="/testimonials" />

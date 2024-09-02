@@ -9,7 +9,7 @@ import { IoAccessibilitySharp } from "react-icons/io5";
 export const EntertainmentAndMediaCards = [
   {
     title: "Personalized Content Recommendations",
-    description: "AI-powered algorithms can analyze user data, including viewing history, preferences, and demographics, to deliver highly personalized recommendations for movies, TV shows, music, and other forms of entertainment. This can improve user engagement, satisfaction, and discoverability of new content.",
+    description: "AI-powered algorithms can analyze user data, including viewing history, preferences, and demographics, to deliver highly personalized recommendations for movies, TV shows, music, and other forms of entertainment. This can improve user engagement and satisfaction.",
     icon: FaYoutube,
     linkAddress: ""
   },
@@ -27,13 +27,13 @@ export const EntertainmentAndMediaCards = [
   },
   {
     title: "Fraud Detection and Prevention",
-    description: "AI can detect fraudulent activities in the entertainment and media industry, such as piracy and copyright infringement. By analyzing data patterns and identifying anomalies, AI can help protect content creators and distributors from financial losses.",
+    description: "AI can detect fraudulent activities in the entertainment and media industry, such as piracy and copyright infringement. By analyzing data patterns and identifying anomalies, AI can help protect content creators and distributors from financial losses, ensuring a fair and sustainable ecosystem for the entertainment industry.",
     icon: SiCyberdefenders,
     linkAddress: ""
   },
   {
     title: "Customer Service Automation",
-    description: "AI-powered chatbots and virtual assistants can provide 24/7 customer support, answer questions, and resolve issues efficiently. This can improve customer satisfaction and reduce the burden on human customer service agents.",
+    description: "AI-powered chatbots and virtual assistants can provide 24/7 customer support, answer questions, and resolve issues efficiently. This can improve customer satisfaction and reduce the burden on human customer service agents, leading to enhanced customer experiences and operational efficiency.",
     icon: FcCustomerSupport,
     linkAddress: ""
   },

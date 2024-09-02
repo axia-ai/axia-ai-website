@@ -21,13 +21,13 @@ export const SupplyChainCards = [
   },
   {
     title: "Transportation Optimization",
-    description: "AI can optimize transportation routes, reduce shipping costs, and improve delivery times by analyzing factors such as traffic conditions, weather, and demand patterns. This can help businesses improve their supply chain efficiency and customer satisfaction.",
+    description: "AI can optimize transportation routes, reduce shipping costs, and improve delivery times by analyzing factors such as traffic conditions, weather, and demand patterns. This can help businesses streamline their logistics operations and enhance customer satisfaction through faster and more reliable deliveries.",
     icon: FaTruck,
     linkAddress: ""
   },
   {
     title: "Risk Management",
-    description: "AI can identify potential risks in the supply chain, such as disruptions due to natural disasters, geopolitical events, or supplier failures. By analyzing data and identifying potential vulnerabilities, businesses can develop contingency plans and mitigate risks.",
+    description: "AI can identify potential risks in the supply chain, such as disruptions due to natural disasters, geopolitical events, or supplier failures. By analyzing potential vulnerabilities, businesses can develop contingency plans and mitigate risks.",
     icon: BsAsterisk,
     linkAddress: ""
   },

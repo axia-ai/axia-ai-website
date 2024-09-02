@@ -15,13 +15,13 @@ export const RetailCards = [
   },
   {
     title: "Inventory Management",
-    description: "AI can optimize inventory management by predicting demand, preventing stockouts, and reducing excess inventory costs. By analyzing historical sales data, market trends, and other factors, AI can help retailers maintain optimal inventory levels and avoid lost sales or excessive carrying costs.",
+    description: "AI can optimize inventory management by predicting demand, preventing stockouts, and reducing excess costs. By analyzing historical sales data, market trends, and other factors, AI can help retailers maintain optimal inventory levels and avoid lost sales or excessive carrying costs.",
     icon: MdOutlineInventory,
     linkAddress: ""
   },
   {
     title: "Customer Service Automation",
-    description: "AI-powered chatbots and virtual assistants can provide 24/7 customer support, answer questions, and assist with purchases, improving customer satisfaction and reducing the burden on human customer service agents.",
+    description: "AI-powered chatbots and virtual assistants can provide 24/7 customer support, answer questions, and assist with purchases, improving customer satisfaction and reducing the burden on human customer service agents and operational costs.",
     icon: RiCustomerService2Fill,
     linkAddress: ""
   },
@@ -33,7 +33,7 @@ export const RetailCards = [
   },
   {
     title: "Fraud Prevention",
-    description: "AI can detect fraudulent activities, such as credit card fraud and account hijacking, by analyzing customer behavior, transaction patterns, and other data. This helps protect retailers and customers from financial losses.",
+    description: "AI can detect fraudulent activities, such as credit card fraud and account hijacking, by analyzing customer behavior, transaction patterns, and other data. This helps protect retailers and customers from losses.",
     icon: FaUserSecret,
     linkAddress: ""
   },

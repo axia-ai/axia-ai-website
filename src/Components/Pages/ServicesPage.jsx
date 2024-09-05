@@ -7,6 +7,7 @@ import CtaServices from '../ServicesComponent/CtaServices'
 import ServicesAccordainsection from "../ServicesComponent/ServicesAccordainsection";
 import { ServiceCards } from "../../JsonData/Services/ServicesHomePageCards";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
+import OurProcess from "../OurProcess";
 
 
 function Services() {
@@ -25,6 +26,7 @@ function Services() {
         cards={ServiceCards}
       />
       <TestimonialsServices/>
+      <OurProcess/>
     </Layout>
   );
 }

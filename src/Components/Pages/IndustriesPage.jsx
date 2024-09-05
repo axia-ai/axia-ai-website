@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import IndustriesPage from "../IndustriesSection/IndustriesPage";
+import OurProcess from "../OurProcess";
 
 function Industries() {
   return (
@@ -11,6 +12,7 @@ function Industries() {
       }
     >
       <IndustriesPage />
+      <OurProcess/>
     </Layout>
   );
 }

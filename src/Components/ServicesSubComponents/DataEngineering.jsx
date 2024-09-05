@@ -6,6 +6,7 @@ import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
 import CtaServices from "../ServicesComponent/CtaServices";
 import TargetCard from "../ServicesComponent/TargetCard";
+import OurProcess from "../OurProcess";
 
 function DataScience() {
   return (
@@ -34,6 +35,7 @@ function DataScience() {
         }
         clientQuote={"They’re one of the best vendors I’ve worked with."}
       />
+      <OurProcess/>
     </Layout>
   );
 }

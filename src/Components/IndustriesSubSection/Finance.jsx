@@ -6,6 +6,7 @@ import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
 import TargetCard from "../ServicesComponent/TargetCard";
 import MessageForm from "../ReusableComponents/MessageForm";
+import OurProcess from "../OurProcess";
 
 function Finance() {
   return (
@@ -32,7 +33,7 @@ function Finance() {
         }
         clientQuote={"They’re one of the best vendors I’ve worked with."}
       />
-
+    <OurProcess/>
     </Layout>
   );
 }

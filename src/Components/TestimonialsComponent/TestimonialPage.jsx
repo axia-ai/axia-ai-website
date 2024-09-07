@@ -6,12 +6,7 @@ import testimonialImage3 from "../../assets/Testimonials/image2.png";
 import testimonialImage4 from "../../assets/Testimonials/image7.jpg";
 import testimonialImage5 from "../../assets/Testimonials/image5.png";
 import testimonialImage6 from "../../assets/Testimonials/image1.png";
-// import testimonialImage4 from "../../assets/Testimonials/image7.jpg";
 import testimonialImage7 from "../../assets/Testimonials/image6.png";
-// import testimonialImage4 from "../../assets/Testimonials/image5.png";
-
-
-
 import testimonialImage8 from "../../assets/Testimonials/image3.png";
 
 function TestimonialPage() {

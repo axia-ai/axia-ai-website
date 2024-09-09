@@ -24,7 +24,6 @@ function AIDevelopment() {
         cards={FirstDeck}
       />
       <TestimonialSection />
-      <TargetCard />
       <OurProcess />
     </Layout>
   );

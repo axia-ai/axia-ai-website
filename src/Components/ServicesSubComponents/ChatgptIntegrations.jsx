@@ -13,7 +13,7 @@ function SoftwareService() {
   return (
     <Layout
       subPage={true}
-      heroHeading={"Chat Integrations"}
+      heroHeading={"ChatGPT Integrations"}
       heroPara={"Unleash the Potential of ChatGPT in Your Business"}
     >
       <PinkBackgroundWithCardsComponent

@@ -73,59 +73,59 @@ export default function Footer() {
               <h3 className="font-bold text-lg mb-4">Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="/" className="hover:underline">
-                    Home
+                  <a href="/services/ai-development" className="hover:underline">
+                    AI Development
                   </a>
                 </li>
                 <li>
-                  <a href="/services" className="hover:underline">
-                    Services
+                  <a href="/services/chatgpt-integrations" className="hover:underline">
+                    ChatGPT Integrations
                   </a>
                 </li>
                 <li>
-                  <a href="/industries" className="hover:underline">
-                    Industries
+                  <a href="/services/data-engineering" className="hover:underline">
+                    Data Engineering
                   </a>
                 </li>
                 <li>
-                  <a href="/testimonials" className="hover:underline">
-                    Testimonials
+                  <a href="/services/software-development" className="hover:underline">
+                    Software Development
                   </a>
                 </li>
                 <li>
-                  <a href="/aboutUs" className="hover:underline">
-                    About Us
+                  <a href="/services/iot" className="hover:underline">
+                    Internet of Things (IoT)
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="m-6 flex flex-col md:ml-10">
-              <h3 className="font-bold text-lg mb-4">Support</h3>
+              <h3 className="font-bold text-lg mb-4">Industries</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="/help-center" className="hover:underline">
-                    Help center
+                  <a href="/industries/healthcare" className="hover:underline">
+                    Healthcare
                   </a>
                 </li>
                 <li>
-                  <a href="/terms-of-service" className="hover:underline">
-                    Terms of service
+                  <a href="/industries/finance" className="hover:underline">
+                    Finance
                   </a>
                 </li>
                 <li>
-                  <a href="/legal" className="hover:underline">
-                    Legal
+                  <a href="/industries/supply-chain" className="hover:underline">
+                    Supply Chain
                   </a>
                 </li>
                 <li>
-                  <a href="/privacy-policy" className="hover:underline">
-                    Privacy policy
+                  <a href="/industries/energy" className="hover:underline">
+                    Energy
                   </a>
                 </li>
                 <li>
-                  <a href="/status" className="hover:underline">
-                    Status
+                  <a href="/industries/entertainment-and-media" className="hover:underline">
+                    Entertainment & Media
                   </a>
                 </li>
               </ul>

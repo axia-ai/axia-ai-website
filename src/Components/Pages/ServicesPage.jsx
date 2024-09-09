@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
+import TestimonialPage from "../TestimonialSection/TestimonialSection";
 import TrustedField from "../ServicesComponent/TrustedField";
 import FeaturesServices from '../ServicesComponent/FeaturesServices'
 import TestimonialsServices from '../ServicesComponent/TestimonialsServices'
@@ -25,7 +26,7 @@ function Services() {
         }
         cards={ServiceCards}
       />
-      <TestimonialsServices/>
+      <TestimonialPage/>
       <OurProcess/>
     </Layout>
   );

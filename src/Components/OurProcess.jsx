@@ -75,7 +75,7 @@ const OurProcess = () => {
       style={{ backgroundImage: `url(${backgroundVectorImage})` }}
     >
       <div className="flex justify-center items-center m-5">
-        <h1 className="text-4xl font-bold mt-2">Our Process:</h1>
+        <h1 className="text-4xl font-bold mt-2">Our Process</h1>
       </div>
       <div className="w-full flex  justify-center items-center m-5  max-md:justify-between max-md:items-center">
         <div
@@ -128,8 +128,8 @@ const OurProcess = () => {
               1. Consultation and Understanding
             </h1>
             <p className="text-lg  mt-5 px-5">
-              Initial Meeting: We schedule a meeting to discuss your business
-              goals, challenges, and expectations. Needs Assessment: We
+              <strong>Initial Meeting:</strong> We schedule a meeting to discuss your business
+              goals, challenges, and expectations.<br></br><strong>Needs Assessment:</strong> We
               carefully analyze your specific requirements and identify areas
               where AI can provide value. Project Scoping: We define the scope
               of the project, including deliverables, timelines, and budget.
@@ -142,9 +142,9 @@ const OurProcess = () => {
               2. Data Collection and Preparation
             </h1>
             <p className="text-lg  mt-5 px-5">
-              Data Gathering: We collect relevant data from various sources,
-              ensuring data quality and completeness. Data Cleaning and
-              Preprocessing: We clean and prepare the data for analysis,
+              <strong>Data Gathering:</strong> We collect relevant data from various sources,
+              ensuring data quality and completeness. <br></br><strong>Data Cleaning and
+              Preprocessing:</strong> We clean and prepare the data for analysis,
               handling missing values, outliers, and inconsistencies.
             </p>
           </div>
@@ -155,11 +155,11 @@ const OurProcess = () => {
               3. Model Selection and Development
             </h1>
             <p className="text-lg  mt-5 px-5">
-              Algorithm Selection: We choose the most appropriate machine
+              <strong>Algorithm Selection:</strong> We choose the most appropriate machine
               learning algorithms based on your project's objectives and data
-              characteristics. Model Training: We train the selected models on
-              your data, fine-tuning them to achieve optimal performance. Model
-              Evaluation: We evaluate the model's performance using appropriate
+              characteristics. <br></br><strong>Model Training: </strong> We train the selected models on
+              your data, fine-tuning them to achieve optimal performance. <br></br><strong>Model
+              Evaluation:</strong> We evaluate the model's performance using appropriate
               metrics to ensure its accuracy and effectiveness.
             </p>
           </div>
@@ -170,9 +170,9 @@ const OurProcess = () => {
               4. Deployment and Integration
             </h1>
             <p className="text-lg  mt-5 px-5">
-              Deployment: We deploy the trained model into your production
+              <strong>Deployment:</strong> We deploy the trained model into your production
               environment, ensuring seamless integration with your existing
-              systems. API Development: We develop APIs to allow your
+              systems. <br></br><strong>API Development:</strong> We develop APIs to allow your
               applications to interact with the AI model.
             </p>
           </div>
@@ -183,10 +183,10 @@ const OurProcess = () => {
               5. Monitoring and Optimization
             </h1>
             <p className="text-lg  mt-5 px-5">
-              Performance Monitoring: We continuously monitor the model's
-              performance and identify areas for improvement. Retraining and
-              Optimization: We retrain the model as needed to maintain its
-              accuracy and effectiveness. Regular Updates: We stay updated on
+              <strong>Performance Monitoring:</strong> We continuously monitor the model's
+              performance and identify areas for improvement.<br></br><strong>Retraining and
+              Optimization:</strong> We retrain the model as needed to maintain its
+              accuracy and effectiveness. <br></br><strong>Regular Updates:</strong> We stay updated on
               the latest AI advancements and incorporate them into your solution
               as appropriate.
             </p>

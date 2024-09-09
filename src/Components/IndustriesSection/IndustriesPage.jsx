@@ -6,6 +6,8 @@ import testimonial1 from "../../assets/testimonial-1.png";
 import Testimonial from "../TestimonialsComponent/Testimonial";
 import IndustryCta from "./IndustryCta";
 import IndustryProjects from "./IndustryProjects";
+import testimonialImage1 from "../../assets/Testimonials/image8.png";
+import testimonialImage2 from "../../assets/Testimonials/image4.png";
 
 function IndustriesPage() {
   return (
@@ -18,29 +20,35 @@ function IndustriesPage() {
         cards={IndustryCards}
       />
       <Testimonial
-        image={testimonial1}
+        image={testimonialImage1}
         imagePosition={"left"}
-        testimonialHeading={"Social Media Mobile App and Website"}
-        serviceType={"Mobile App and Website Development"}
-        clientName={"Quila Flower LLC/Quick Friends"}
+        testimonialHeading={"AI for Waste Management"}
+        serviceType={"AI Consulting and Development "}
+        clientName={"Ecosense-Enviro"}
+        industry={"Sustainability/ Climate Change"}
         testimonialPara={
-          "Our client wanted to create a way for people, especially those from military families like hers, to create real-life friendships quickly. She wanted to create a social networking custom cross-platform app that integrated events and chat to help people connect with new friends on a deeper, more meaningful basis."
+          "To address our client's need for automated waste sorting in MRF facilities and dustbins, we developed a custom AI model and deployed it as a service."
         }
-        clientQuote={"They’re one of the best vendors I’ve worked with."}
+        clientQuote={
+          "Axia's expert consultation on computer vision enabled us to successfully automate our waste sorting process."
+        }
       />
       <IndustryProjects />
       <Testimonial
-        image={testimonial1}
+        image={testimonialImage2}
         imagePosition={"right"}
-        testimonialHeading={"Social Media Mobile App and Website"}
-        serviceType={"Mobile App and Website Development"}
-        clientName={"Quila Flower LLC/Quick Friends"}
+        testimonialHeading={"Gen-AI Based iOS app"}
+        serviceType={"AI Consulting and Development"}
+        clientName={"Vivify"}
+        industry={"Consumer Tech"}
         testimonialPara={
-          "Our client wanted to create a way for people, especially those from military families like hers, to create real-life friendships quickly. She wanted to create a social networking custom cross-platform app that integrated events and chat to help people connect with new friends on a deeper, more meaningful basis."
+          "Vivify, a Gen-AI-powered mobile app designed for Japanese Gen Z users, aims to facilitate meaningful connections and foster real-life friendships. Leveraging astrology and AI-driven chat features, Vivify creates a personalized platform for users to connect and build deeper bonds."
         }
-        clientQuote={"They’re one of the best vendors I’ve worked with."}
+        clientQuote={
+          "Axia successfully developed a Gen-AI powered mobile app for Japanese users. We're now collaborating on the next phase of this project."
+        }
       />
-     <IndustryCta />
+      <IndustryCta />
     </>
   );
 }

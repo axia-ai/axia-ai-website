@@ -1,93 +1,46 @@
+// TestimonialPage.js
+
 import React from "react";
-import Cards from "./Cards";
+import Testimonial from "../TestimonialsComponent/Testimonial";
+import testimonialsData from "../../JsonData/testimonialsData.js";
 
-
-// Import Swiper React components
+// Import Swiper components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
-
 // Import Swiper styles
 import "swiper/css";
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
-const TestimonialSection = () => {
+function TestimonialPage() {
   return (
-    <>
-      <div className="ml-32 mt-20 mr-10 mb-10 max-md:m-5">
-        <div className="container px-4 py-16 max-md:py-5">
-          <div className="flex justify-between ">
-            <h2 className="text-6xl   mb-8 font-poppins max-md:text-3xl">
-              Testimonial
-            </h2>
-          </div>
-          <div className="mb-10 font-poppins text-xl max-md:text-sm ">
-            <p>Don't just take our word for it. </p>
-            <p>
-              See what actual users of our service have to say about their
-              experience.
-            </p>
-          </div>
-          <div className="flex justify-center items-center p-5 gap-8 max-md:flex-col h-auto">
-          
-            <Swiper
-              modules={[Navigation, Pagination, Scrollbar, A11y]}
-              spaceBetween={20}
-              slidesPerView={3}
-              navigation
-              breakpoints={{
-                640: {
-                  slidesPerView: 3,
-                },
-                0: {
-                  slidesPerView: 1,
-                },
-              }}
-            >
-              <SwiperSlide>
-                <Cards
-                  para="  1  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non ultricies orci. Nullam ultricies dui id odio egestas feugiat. Donec facilisis neque sed sapien fringilla varius vel vel orci. Quisque a volutpat mi. Nulla eleifend vehicula efficitur. Sed bibendum id eros nec aliquam. Aenean ut risus ac libero tempus molestie. "
-                  img="/"
-                  name="Jane Smith"
-                  work="Web-DEV"
-                />
-              </SwiperSlide>
-
-              <SwiperSlide >
-                <Cards
-                  para="  2  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non ultricies orci. Nullam ultricies dui id odio egestas feugiat. Donec facilisis neque sed sapien fringilla varius vel vel orci. Quisque a volutpat mi. Nulla eleifend vehicula efficitur. Sed bibendum id eros nec aliquam. Aenean ut risus ac libero tempus molestie. "
-                  img="/"
-                  name="Jane Smith"
-                  work="Web-DEV"
-                />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <Cards
-                  para="  3  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non ultricies orci. Nullam ultricies dui id odio egestas feugiat. Donec facilisis neque sed sapien fringilla varius vel vel orci. Quisque a volutpat mi. Nulla eleifend vehicula efficitur. Sed bibendum id eros nec aliquam. Aenean ut risus ac libero tempus molestie. "
-                  img="/"
-                  name="Jane Smith"
-                  work="Web-DEV"
-                />
-              </SwiperSlide>
-
-              <SwiperSlide >
-                <Cards
-                  para="  4  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non ultricies orci. Nullam ultricies dui id odio egestas feugiat. Donec facilisis neque sed sapien fringilla varius vel vel orci. Quisque a volutpat mi. Nulla eleifend vehicula efficitur. Sed bibendum id eros nec aliquam. Aenean ut risus ac libero tempus molestie. "
-                  img="/"
-                  name="Jane Smith"
-                  work="Web-DEV"
-                />
-              </SwiperSlide>
-            </Swiper>
-
-          </div>
-        </div>
-      </div>
-    </>
+    <div className="testimonial-slider">
+      <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        spaceBetween={20}
+        slidesPerView={1} // Show only 1 testimonial at a time
+        navigation
+        pagination={{ clickable: true }}
+      >
+        {testimonialsData.map((testimonial, index) => (
+          <SwiperSlide key={index}>
+            <Testimonial
+              image={testimonial.image}
+              imagePosition={testimonial.imagePosition}
+              testimonialHeading={testimonial.testimonialHeading}
+              serviceType={testimonial.serviceType}
+              clientName={testimonial.clientName}
+              industry={testimonial.industry}
+              testimonialPara={testimonial.testimonialPara}
+              clientQuote={testimonial.clientQuote}
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
-};
+}
 
-export default TestimonialSection;
+export default TestimonialPage;

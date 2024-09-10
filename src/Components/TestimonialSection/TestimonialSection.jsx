@@ -6,7 +6,7 @@ import testimonialsData from "../../JsonData/testimonialsData.js";
 
 // Import Swiper components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,6 +17,9 @@ import "swiper/css/scrollbar";
 function TestimonialPage() {
   return (
     <div className="testimonial-slider">
+      <div className="text-center text-5xl mt-8 font-bold">
+        <h1>Explore what our clients have to say about us...</h1>
+      </div>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={20}

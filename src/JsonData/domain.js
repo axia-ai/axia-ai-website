@@ -1,9 +1,9 @@
 const domainArray = [
-    { value: "1", label: "AI Development Services" },
-    { value: "2", label: "ChatGPT Integrations" },
-    { value: "3", label: "Custom Software Development" },   
-    { value: "4", label: "Mobile App Development" },
-    { value: "5", label: "Databases" },
+    { value: "ai development services", label: "AI Development Services" },
+    { value: "chatGpt integrations", label: "ChatGPT Integrations" },
+    { value: "custom software development", label: "Custom Software Development" },   
+    { value: "mobile app development", label: "Mobile App Development" },
+    { value: "database", label: "Databases" },
   ];
   
   export default domainArray;

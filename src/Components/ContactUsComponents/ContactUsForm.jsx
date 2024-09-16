@@ -44,6 +44,18 @@ function ContactUsForm() {
     if (response.status === 500) {
       toast.error("Form submission failed!");
     } else {
+      setFormData({
+        FirstName: "",
+        LastName: "",
+        Email: "",
+        PhoneNumber: "",
+        JobTitle: "",
+        Company: "",
+        Subject: "",
+        Location: "",
+        Domain: "",
+        Message: "",
+      });
       toast.success("Form submitted successfully!");
     }
   }

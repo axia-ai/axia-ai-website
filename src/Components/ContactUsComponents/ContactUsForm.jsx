@@ -74,6 +74,8 @@ function ContactUsForm() {
                 type="text"
                 placeholder="Enter your First Name"
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+                maxLength="140"
               />
             </div>
             <div>
@@ -85,6 +87,8 @@ function ContactUsForm() {
                 type="text"
                 placeholder="Enter your Last Name"
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+                maxLength="140"
               />
             </div>
             <div>
@@ -96,6 +100,7 @@ function ContactUsForm() {
                 type="email"
                 placeholder="Please Enter a Valid Email"
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
               />
             </div>
             <div>
@@ -107,6 +112,8 @@ function ContactUsForm() {
                 type="text"
                 placeholder="Enter your Phone Number with the Country Code"
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+                maxLength="140"
               />
             </div>
             <div>
@@ -118,6 +125,8 @@ function ContactUsForm() {
                 type="text"
                 placeholder="Enter your Job Title"
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+                maxLength="140"
               />
             </div>
             <div>
@@ -129,6 +138,8 @@ function ContactUsForm() {
                 type="text"
                 placeholder="Enter your Company Name"
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+                maxLength="140"
               />
             </div>
             <div className="col-span-1 md:col-span-2">
@@ -141,6 +152,7 @@ function ContactUsForm() {
                 checked={formData.Subject === "General Inquiry"}
                 onChange={handleChange}
                 className="mr-2 ml-1"
+                required
               />
               <label htmlFor="general">General Inquiry</label>
               <input
@@ -151,6 +163,7 @@ function ContactUsForm() {
                 checked={formData.Subject === "Project Discussion"}
                 onChange={handleChange}
                 className="mr-2 ml-1"
+                required
               />
               <label htmlFor="project">Project Discussion</label>
               <input
@@ -161,6 +174,7 @@ function ContactUsForm() {
                 checked={formData.Subject === "Careers"}
                 onChange={handleChange}
                 className="mr-2 ml-1"
+                required
               />
               <label htmlFor="careers">Careers</label>
               <input
@@ -171,6 +185,7 @@ function ContactUsForm() {
                 checked={formData.Subject === "Feedback"}
                 onChange={handleChange}
                 className="mr-2 ml-1"
+                required
               />
               <label htmlFor="feedback">Feedback</label>
             </div>
@@ -181,6 +196,7 @@ function ContactUsForm() {
                 value={formData.Location}
                 onChange={handleChange}
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
               >
                 <option>Choose a location</option>
                 {countryArray.map((country) => (
@@ -197,6 +213,7 @@ function ContactUsForm() {
                 value={formData.Domain}
                 onChange={handleChange}
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
               >
                 <option>Choose a domain</option>
                 {domainArray.map((domain) => (
@@ -215,6 +232,8 @@ function ContactUsForm() {
                 className="w-full mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 rows="4"
                 placeholder="Write your message..."
+                required
+                maxLength="140"
               ></textarea>
             </div>
             <div className="col-span-1 md:col-span-2 text-right">

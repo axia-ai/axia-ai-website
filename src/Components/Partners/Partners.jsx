@@ -21,28 +21,28 @@ const Partners = () => {
         <hr className="mb-4 mx-4 " />
         <Marquee loop={0} speed={100}>
           <div className="flex justify-between items-center w-auto max-md:mx-2 ">
-            <div className="flex justify-center mx-1 items-center max-md:mx-1 size-60 ">
+            <div className="flex justify-center items-center max-md:mx-1 size-80 ">
               <img src={image1} alt="" />
             </div>
-            <div className="flex justify-center mx-1 items-center max-md:mx-1 size-60 ">
+            <div className="flex justify-center items-center max-md:mx-1 size-80 max-md:size-60">
               <img src={image2} alt="" />
             </div>
-            <div className="flex justify-center mx-1 items-center max-md:mx-1 size-60">
+            <div className="flex justify-center items-center max-md:mx-1 size-80 max-md:size-60">
               <img src={image3} alt="" />
             </div>
-            <div className="flex justify-center mx-1 items-center max-md:mx-1 size-60">
+            <div className="flex justify-center items-center max-md:mx-1 size-80 max-md:size-60">
               <img src={image4} alt="" />
             </div>
-            <div className="flex justify-center mx-1  items-center max-md:mx-1 size-60">
+            <div className="flex justify-center  items-center max-md:mx-1 size-80 max-md:size-60">
               <img src={image5} alt="" />
             </div>
-            <div className="flex justify-center mx-1  items-center max-md:mx-1 size-60">
+            <div className="flex justify-center  items-center max-md:mx-1 size-80 max-md:size-60">
               <img src={image6} alt="" />
             </div>
-            <div className="flex justify-center mx-1  items-center max-md:mx-1 size-60">
+            <div className="flex justify-center  items-center max-md:mx-1 size-80 max-md:size-60">
               <img src={image7} alt="" />
             </div>
-            <div className="flex justify-center mx-1  items-center max-md:mx-1 size-60">
+            <div className="flex justify-center  items-center max-md:mx-1 size-80 max-md:size-60">
               <img src={image8} alt="" />
             </div>
           </div>

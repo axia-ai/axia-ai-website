@@ -35,8 +35,8 @@ const Faq = () => {
     };
 
     return (
-        <div className="w-full max-w-xl mx-auto m-24 my-14 sm:my-36 px-2">
-            <h1 className="text-4xl font-bold text-center mb-6">Suspendisse vitae</h1>
+        <div className="w-full max-w-xl mx-auto m-10 my-14 sm:my-10 px-2">
+            <h1 className="text-3xl md:text-5xl font-bold text-center mb-6">Suspendisse vitae</h1>
             <p className="text-center mb-0 sm:mb-6 text-introHeadingGrey text-sm sm:text-base md:text-lg">
                 At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.
             </p>

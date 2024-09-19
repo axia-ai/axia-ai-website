@@ -17,7 +17,7 @@ import "swiper/css/scrollbar";
 function TestimonialPage() {
   return (
     <div className="testimonial-slider">
-      <div className="text-center text-5xl mt-8 font-bold">
+      <div className="text-center text-3xl mt-8 font-bold md:text-5xl">
         <h1>Explore what our clients have to say about us...</h1>
       </div>
       <Swiper

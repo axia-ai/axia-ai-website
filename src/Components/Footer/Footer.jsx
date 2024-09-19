@@ -39,7 +39,7 @@ export default function Footer() {
 
         <div className=" flex justify-between sm:pr-10 sm:justify-between max-md:flex-col">
           <div className=" flex justify-between sm:pr-10 sm:justify-between">
-            <div className="m-6 flex flex-col md:ml-10">
+            <div className="m-4 flex flex-col md:ml-10">
               <h3 className="font-bold text-lg mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
@@ -69,7 +69,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="m-6 flex flex-col md:ml-10">
+            <div className="m-4 flex flex-col md:ml-10">
               <h3 className="font-bold text-lg mb-4">Services</h3>
               <ul className="space-y-2">
                 <li>
@@ -100,7 +100,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="m-6 flex flex-col md:ml-10">
+            <div className="m-4 flex flex-col md:ml-10">
               <h3 className="font-bold text-lg mb-4">Industries</h3>
               <ul className="space-y-2">
                 <li>

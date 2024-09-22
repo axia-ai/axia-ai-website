@@ -3,8 +3,8 @@ import Layout from "../Layout/Layout";
 import AboutUsValues from "../AboutUsSection/AboutUsValues";
 import Teams from "../Teams/Teams";
 import OurValues from "../AboutUsSection/OurValues";
-import AboutUsPartners from "../AboutUsSection/AboutUsPartners";
 import TestimonialPage from "../TestimonialSection/TestimonialSection";
+import Partners from "../Partners/Partners";
 
 function AboutUs() {
   return (
@@ -16,8 +16,8 @@ function AboutUs() {
     >
       <AboutUsValues />
       <OurValues />
+      <Partners/>
       <Teams />
-      <AboutUsPartners />
       <TestimonialPage/>
     </Layout>
   );

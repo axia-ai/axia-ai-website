@@ -1,7 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import image1 from "../../assets/TestimonialsBlackWhiteLogos/1.png";
-import image2 from "../../assets/TestimonialsBlackWhiteLogos/11.png";
+import image2 from "../../assets/TestimonialsBlackWhiteLogos/10.png";
 import image3 from "../../assets/TestimonialsBlackWhiteLogos/3.png";
 import image4 from "../../assets/TestimonialsBlackWhiteLogos/4.png";
 import image5 from "../../assets/TestimonialsBlackWhiteLogos/5.png";
@@ -21,7 +21,7 @@ const Partners = () => {
         <hr className="mb-4 mx-4 " />
         <Marquee loop={0} speed={100}>
           <div className="flex justify-between items-center w-auto max-md:mx-2 ">
-            <div className="flex justify-center items-center max-md:mx-1 size-80 ">
+            <div className="flex justify-center items-center max-md:mx-1 size-72 ">
               <img src={image1} alt="" />
             </div>
             <div className="flex justify-center items-center max-md:mx-1 size-80 max-md:size-60">

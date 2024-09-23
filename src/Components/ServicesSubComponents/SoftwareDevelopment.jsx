@@ -2,10 +2,6 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import { FirstDeck } from "../../JsonData/Services/SoftwareDevelopment";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
-import testimonial1 from "../../assets/testimonial-1.png";
-import Testimonial from "../TestimonialsComponent/Testimonial";
-import CtaServices from "../ServicesComponent/CtaServices";
-import TargetCard from "../ServicesComponent/TargetCard";
 import OurProcess from "../OurProcess";
 import TestimonialSection from "../../Components/TestimonialSection/TestimonialSection";
 

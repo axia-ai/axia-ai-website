@@ -1,11 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import TestimonialPage from "../TestimonialSection/TestimonialSection";
-import TrustedField from "../ServicesComponent/TrustedField";
-import FeaturesServices from '../ServicesComponent/FeaturesServices'
-import TestimonialsServices from '../ServicesComponent/TestimonialsServices'
-import CtaServices from '../ServicesComponent/CtaServices'
-import ServicesAccordainsection from "../ServicesComponent/ServicesAccordainsection";
 import { ServiceCards } from "../../JsonData/Services/ServicesHomePageCards";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
 import OurProcess from "../OurProcess";

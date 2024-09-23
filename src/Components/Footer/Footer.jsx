@@ -7,7 +7,6 @@ import { CgInstagram } from "react-icons/cg";
 import { CgFacebook } from "react-icons/cg";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { CgYoutube } from "react-icons/cg";
-import { BsSend } from "react-icons/bs";
 
 export default function Footer() {
   return (

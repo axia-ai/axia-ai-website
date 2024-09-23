@@ -4,7 +4,7 @@ import AboutUsValues from "../AboutUsSection/AboutUsValues";
 import Teams from "../Teams/Teams";
 import OurValues from "../AboutUsSection/OurValues";
 import TestimonialPage from "../TestimonialSection/TestimonialSection";
-import Partners from "../Partners/Partners";
+import OurClients from '../../Components/clients/OurClients'
 
 function AboutUs() {
   return (
@@ -16,7 +16,7 @@ function AboutUs() {
     >
       <AboutUsValues />
       <OurValues />
-      <Partners/>
+      <OurClients/>
       <Teams />
       <TestimonialPage/>
     </Layout>

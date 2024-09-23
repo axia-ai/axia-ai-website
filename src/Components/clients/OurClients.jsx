@@ -15,7 +15,7 @@ const Partners = () => {
       <div className="flex flex-col">
         <div className="flex justify-center items-center  w-auto m-7 max-md:m-3">
           <h1 className="font-poppins font-bold text-5xl max-md:text-3xl">
-            Our Partners
+            Our Clients
           </h1>
         </div>
         <hr className="mb-4 mx-4 " />

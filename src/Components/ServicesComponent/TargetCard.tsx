@@ -1,5 +1,5 @@
 import React from "react";
-import testimonial_2 from "./../../assets/testimonial-2.png";
+import testimonial_2 from "../../assets/testimonial-2.png";
 
 const TargetCard = () => {
   return (

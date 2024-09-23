@@ -2,10 +2,6 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import { EducationCards } from "../../JsonData/Industries/Education";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
-import testimonial1 from "../../assets/testimonial-1.png";
-import Testimonial from "../TestimonialsComponent/Testimonial";
-import TargetCard from "../ServicesComponent/TargetCard";
-import MessageForm from "../ReusableComponents/MessageForm";
 import OurProcess from "../OurProcess";
 import TestimonialSection from "../../Components/TestimonialSection/TestimonialSection";
 

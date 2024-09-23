@@ -7,7 +7,7 @@ function AboutUsInfo() {
   return (
     <div className="flex flex-col items-center p-8 text-white">
       <div className="max-w-5xl w-full text-center mb-10">
-        <h2 className="text-3xl font-bold text-black mt-2 font-semibold">
+        <h2 className="text-3xl font-bold text-black mt-2 ">
           Who We Are
         </h2>
         <p className="text-gray-600 mt-4">

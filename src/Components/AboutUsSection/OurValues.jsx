@@ -1,8 +1,5 @@
 import React from 'react'
-import { IoExtensionPuzzle } from "react-icons/io5";
-import { IoIosLock } from "react-icons/io";
 import { PiChatsFill } from "react-icons/pi";
-import { FaArrowRight } from "react-icons/fa";
 import { MdSavings } from "react-icons/md";
 import { IoPeopleSharp } from "react-icons/io5";
 import { FaLightbulb } from "react-icons/fa";

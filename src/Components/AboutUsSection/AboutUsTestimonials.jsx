@@ -1,6 +1,5 @@
 import React from "react";
 import AboutUsTestimonialsCards from "./AboutUsTestimonialsCards";
-// import {intro} from '../../assets/intro.png'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

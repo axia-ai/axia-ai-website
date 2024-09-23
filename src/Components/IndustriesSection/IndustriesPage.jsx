@@ -3,12 +3,6 @@ import React from "react";
 import { IndustryCards } from "../../JsonData/IndustryCards";
 import PinkBackgroundWithCardsComponent from "../ReusableComponents/PinkBackgroundWithCardsComponent";
 import TestimonialPage from "../TestimonialSection/TestimonialSection";
-import testimonial1 from "../../assets/testimonial-1.png";
-import Testimonial from "../TestimonialsComponent/Testimonial";
-import IndustryCta from "./IndustryCta";
-import IndustryProjects from "./IndustryProjects";
-import testimonialImage1 from "../../assets/Testimonials/image8.png";
-import testimonialImage2 from "../../assets/Testimonials/image4.png";
 
 function IndustriesPage() {
   return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from "../ReusableComponents/Button";
 
 const SocialMediaComponent = ({ image, imagePosition, testimonialHeading, serviceType, clientName, industry, testimonialPara, clientQuote }) => {
   const isImageRight = imagePosition === 'right';
@@ -20,7 +19,6 @@ const SocialMediaComponent = ({ image, imagePosition, testimonialHeading, servic
         <p className="mb-4 text-sm sm:text-md">
             {testimonialPara}
         </p>
-        {/* <Button color="purple">Read More</Button> */}
       </div>
     </div>
   );

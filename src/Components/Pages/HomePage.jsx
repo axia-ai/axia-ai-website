@@ -2,7 +2,6 @@ import React from 'react'
 import Achievements from '../AchievementSection/Achievements'
 import Calender from '../CalenderSection/Calender'
 import Community from '../BlogsSection/Blogs'
-import Faq from '../FAQSection/Faq'
 import Layout from '../Layout/Layout'
 import OurClients from '../../Components/clients/OurClients'
 import CtaSection_UI_Kit from '../../Components/CtaSection_UI_Kit/CtaSection_UI_Kit'
@@ -18,7 +17,6 @@ function LandingPage() {
             <Calender />
             <CtaSection_UI_Kit/>
             <Community />
-            <Faq />
             <Teams/>
             <TestimonialSection/>
             <Vacation/>

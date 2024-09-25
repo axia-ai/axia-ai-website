@@ -1,5 +1,8 @@
 import React from "react";
 import Teams_card from "./Teams_card";
+import image1 from "../../assets/Shreyas.jpeg"
+import image2 from "../../assets/AkashNagarka.jpeg"
+import image3 from "../../assets/SiddharthKhonde.png"
 
 const Teams = () => {
   return (
@@ -11,9 +14,9 @@ const Teams = () => {
           that drive us
         </p>
         <div className="flex justify-between items-center my-8 max-md:flex-col max-md:my-3">
-          <Teams_card Name="Shreyas Karanjkar" Post="Co-Founder, Marketing & Business Development"/>
-          <Teams_card Name="Akash Nagarkar" Post="Co-Founder, AI Services"/>
-          <Teams_card Name="Siddharth Khonde" Post="Co-Founder, Software Engineering"/>
+          <Teams_card Name="Shreyas Karanjkar" Post="Director, Head of growth" Img={image1} Link="https://www.linkedin.com/in/shreyas-karanjkar-ai-consultant/"/>
+          <Teams_card Name="Akash Nagarkar" Post="Director, Head of AI & Data" Img={image2} Link="https://www.linkedin.com/in/akash-nagarkar/"/>
+          <Teams_card Name="Siddharth Khonde" Post="Director, Head of Software Engineering" Img={image3} Link="https://www.linkedin.com/in/siddharthkhonde/"/>
         </div>
       </div>
     </>

@@ -23,9 +23,10 @@ function TestimonialPage() {
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={20}
-        slidesPerView={1} // Show only 1 testimonial at a time
+        slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
+        loop={true}
       >
         {testimonialsData.map((testimonial, index) => (
           <SwiperSlide key={index}>

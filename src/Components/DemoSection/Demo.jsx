@@ -8,7 +8,7 @@ const Demo = () => {
         <h1 className="text-2xl md:text-3xl mb-4">
           Set Up a Free Consultation
         </h1>
-        <Button color={"white"} link={"/contactUs"}>
+        <Button color={"white"} link={"https://calendly.com/axia-ai/lets-connect"} tab={"_blank"}>
           Schedule a call
         </Button>
       </div>

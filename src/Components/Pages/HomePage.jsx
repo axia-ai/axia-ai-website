@@ -7,7 +7,6 @@ import OurClients from '../../Components/clients/OurClients'
 import CtaSection_UI_Kit from '../../Components/CtaSection_UI_Kit/CtaSection_UI_Kit'
 import Vacation from '../../Components/VacationSection/Vacation'
 import TestimonialSection from '../../Components/TestimonialSection/TestimonialSection'
-import Teams from '../../Components/Teams/Teams'
 
 function LandingPage() {
     return (
@@ -17,7 +16,6 @@ function LandingPage() {
             <Calender />
             <CtaSection_UI_Kit/>
             <Community />
-            <Teams/>
             <TestimonialSection/>
             <Vacation/>
         </Layout>

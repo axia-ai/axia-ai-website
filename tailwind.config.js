@@ -28,6 +28,7 @@ module.exports = {
         primary: '#9564B9',
         primaryHover: '#7C3A9E',
         darkBlue: '#102542', 
+        linkedInBlue: "#0A66C2"
       }
     },
   },

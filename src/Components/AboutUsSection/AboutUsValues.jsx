@@ -5,13 +5,11 @@ import { GiBullseye } from "react-icons/gi";
 
 function AboutUsValues() {
   return (
-    <div className="m-10 bg-gray-900 text-white p-8 rounded-xl max-w-full mx-5 sm:mx-10 flex flex-col md:flex-row content-center text-center md:text-left">
+    <div className="m-10 bg-primary text-white p-8 rounded-xl max-w-full mx-5 sm:mx-10 flex flex-col md:flex-row content-center text-center md:text-left">
       <div className="flex-1 p-4 text-sm md:text-base">
-        <h1 className="text-2xl md:text-3xl font-bold mb-4">
-          Who Are We?
-        </h1>
+        <h1 className="text-2xl md:text-3xl font-bold mb-4">Who Are We?</h1>
         <p className="mb-6">
-        <strong>
+          <strong>
             We are a dynamic AI and Software Engineering consultancy dedicated
             to propelling businesses forward.{" "}
           </strong>
@@ -31,33 +29,33 @@ function AboutUsValues() {
         <div className="text-sm md:text-base">
           <div className="mb-4">
             <div className="flex justify-start max-md:justify-center">
-            <GiBullseye size="30" className=" mr-3"/>
-              <h3 className="text-yellow-400 font-semibold text-xl mb-2">
+              <GiBullseye size="30" className=" mr-3" />
+              <h3 className="text-primary font-semibold text-xl mb-2">
                 Our Aim
               </h3>
             </div>
-            
+
             <p>
-            To empower businesses through cutting-edge AI and software
-            solutions, driving innovation and unlocking growth potential. We are
-            committed to delivering exceptional value by partnering closely with
-            our clients to solve complex challenges and achieve their strategic
-            objectives.
+              To empower businesses through cutting-edge AI and software
+              solutions, driving innovation and unlocking growth potential. We
+              are committed to delivering exceptional value by partnering
+              closely with our clients to solve complex challenges and achieve
+              their strategic objectives.
             </p>
           </div>
           <div>
             <div className="flex justify-start max-md:justify-center">
               <FaRegEye size="25" className=" m-1 mr-3" />
-              <h3 className="text-yellow-400 font-semibold text-xl mb-2">
-              Our Vision
+              <h3 className="text-primary font-semibold text-xl mb-2">
+                Our Vision
               </h3>
             </div>
             <p>
-            To be the leading AI and software engineering consultancy, shaping
-            the future of business through transformative technology. We
-            envision a world where AI and software are seamlessly integrated
-            into every organization, driving efficiency, productivity, and
-            competitive advantage.
+              To be the leading AI and software engineering consultancy, shaping
+              the future of business through transformative technology. We
+              envision a world where AI and software are seamlessly integrated
+              into every organization, driving efficiency, productivity, and
+              competitive advantage.
             </p>
           </div>
         </div>

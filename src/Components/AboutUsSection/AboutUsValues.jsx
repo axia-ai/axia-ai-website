@@ -30,7 +30,7 @@ function AboutUsValues() {
           <div className="mb-4">
             <div className="flex justify-start max-md:justify-center">
               <GiBullseye size="30" className=" mr-3" />
-              <h3 className="text-primary font-semibold text-xl mb-2">
+              <h3 className="text-white font-semibold text-xl mb-2">
                 Our Aim
               </h3>
             </div>
@@ -46,7 +46,7 @@ function AboutUsValues() {
           <div>
             <div className="flex justify-start max-md:justify-center">
               <FaRegEye size="25" className=" m-1 mr-3" />
-              <h3 className="text-primary font-semibold text-xl mb-2">
+              <h3 className="text-white font-semibold text-xl mb-2">
                 Our Vision
               </h3>
             </div>

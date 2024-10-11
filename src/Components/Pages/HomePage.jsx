@@ -4,7 +4,7 @@ import Calender from '../CalenderSection/Calender'
 import Community from '../BlogsSection/Blogs'
 import Layout from '../Layout/Layout'
 import OurClients from '../../Components/clients/OurClients'
-import CtaSection_UI_Kit from '../../Components/CtaSection_UI_Kit/CtaSection_UI_Kit'
+// import CtaSection_UI_Kit from '../../Components/CtaSection_UI_Kit/CtaSection_UI_Kit'
 import Vacation from '../../Components/VacationSection/Vacation'
 import TestimonialSection from '../../Components/TestimonialSection/TestimonialSection'
 
@@ -14,7 +14,7 @@ function LandingPage() {
             <OurClients/>
             <Achievements />
             <Calender />
-            <CtaSection_UI_Kit/>
+            {/* <CtaSection_UI_Kit/> */}
             <Community />
             <TestimonialSection/>
             <Vacation/>

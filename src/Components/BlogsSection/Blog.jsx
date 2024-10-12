@@ -61,7 +61,7 @@ const Community = () => {
                     </div>
                     <div className="relative bottom-20 bg-gray-100 m-auto max-w-xs mt-0 py-5 p-4 shadow-lg text-center rounded-lg">
                         <h3 className="text-lg font-semibold mb-4 text-gray-500 text-sm sm:text-base md:text-lg">{update.title}</h3>
-                        <a href={update.link} className="text-lg font-bold text-primary hover:text-green-600">
+                        <a href={update.link} className="text-lg font-bold text-primary hover:text-bg_dark_primary">
                             Explore More &rarr;
                         </a>
                     </div>

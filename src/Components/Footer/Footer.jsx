@@ -66,6 +66,11 @@ export default function Footer() {
                     About Us
                   </a>
                 </li>
+                <li>
+                  <a href="/privacyPolicy" className="hover:underline">
+                    Privacy Policy
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="m-4 flex flex-col md:ml-10">

@@ -32,6 +32,7 @@ import SupplyChain from "./Components/IndustriesSubSection/SupplyChain.jsx";
 import Telecommunications from "./Components/IndustriesSubSection/Telecommunications.jsx";
 import Legal from "./Components/IndustriesSubSection/Legal.jsx";
 import RealEstate from "./Components/IndustriesSubSection/RealEstate.jsx";
+import PrivacyPolicyPage from "./Components/Pages/PrivacyPolicyPage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -42,7 +43,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/services" element={<ServicesPage />} />
           {/* Services Sub Components Start */}
           <Route path="/services/ai-development" element={<AIDevelopment />} />
-          <Route path="/services/data-engineering" element={<DataEngineering />} />
+          <Route
+            path="/services/data-engineering"
+            element={<DataEngineering />}
+          />
           <Route
             path="/services/chatgpt-integrations"
             element={<ChatGPTIntegrations />}
@@ -70,17 +74,27 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/industries/retail" element={<Retail />} />
           <Route path="/industries/education" element={<Education />} />
           <Route path="/industries/energy" element={<Energy />} />
-          <Route path="/industries/entertainment-and-media" element={<EntertainmentAndMedia />} />
-          <Route path="/industries/government-and-public-sector" element={<GovtAndPublicSector />} />
+          <Route
+            path="/industries/entertainment-and-media"
+            element={<EntertainmentAndMedia />}
+          />
+          <Route
+            path="/industries/government-and-public-sector"
+            element={<GovtAndPublicSector />}
+          />
           <Route path="/industries/manufacturing" element={<Manufacturing />} />
           <Route path="/industries/supply-chain" element={<SupplyChain />} />
-          <Route path="/industries/telecommunications" element={<Telecommunications />} />
+          <Route
+            path="/industries/telecommunications"
+            element={<Telecommunications />}
+          />
           <Route path="/industries/legal" element={<Legal />} />
           <Route path="/industries/real-estate" element={<RealEstate />} />
           {/* Industries Sub Components End */}
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/aboutUs" element={<AboutUsPage />} />
           <Route path="/contactUs" element={<ContactUsPage />} />
+          <Route path="/privacyPolicy" element={<PrivacyPolicyPage />} />
         </Routes>
       </Router>
     </ChakraProvider>

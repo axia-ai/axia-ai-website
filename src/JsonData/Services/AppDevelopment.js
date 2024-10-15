@@ -3,38 +3,38 @@ import { GoDatabase } from "react-icons/go";
 
 export const FirstDeck = [
   {
-    title: "Natural Language Processing (NLP)",
-    description: "We implement AI-powered chatbots, virtual assistants, and voice interfaces to provide personalized support, answer questions, and complete tasks. This can enhance user engagement and satisfaction.",
+    title: "Custom Mobile App Development",
+    description: "We create mobile applications meticulously tailored to the specific needs and requirements of a client or business. Our approach ensures a seamless, high-performance app experience that aligns with the client’s goals and enhances user engagement.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Recommendation Engines",
-    description: "We utilize AI algorithms to suggest relevant products, services, or content based on user preferences and behavior. This can increase customer engagement, boost sales, and improve user satisfaction.",
+    title: "UI/UX Design",
+    description: "We design an intuitive and visually appealing user interface (UI) and user experience (UX) that ensures the app is user-friendly, highly engaging, and greatly enhances overall customer satisfaction and increases associations.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Image and Video Analysis",
-    description: "We incorporate AI-powered image and video recognition for tasks like object detection, facial recognition, and augmented reality experiences that enhance user engagement.",
+    title: "Backend Development & Integration",
+    description: "We develop the server side of the application and integrating APIs that allow the app to communicate with external services or databases, enabling features like user authentication, data storage, and third-party services.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Predictive Analytics",
-    description: "We use AI to analyze data and predict future trends, enabling businesses to make data-driven decisions and optimize operations that help identify opportunities, mitigate risks, and improve efficiency.",
+    title: "App Testing & Quality Assurance (QA)",
+    description: "We ensure the app functions smoothly across various devices and operating systems. This involves functional testing, performance testing, and bug fixing to deliver a reliable app experience.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Personalization",
-    description: "We create highly personalized user experiences by tailoring app content and features to individual preferences and behaviors. This can increase user engagement, loyalty, and satisfaction.",
+    title: "App Maintenance & Support",
+    description: "We provide ongoing maintenance services to keep the app updated, secure, and compatible with the latest OS versions. This can include adding new features, fixing bugs, and improving performance over time.",
     icon: GoDatabase,
     linkAddress: ""
   },
   {
-    title: "Robotic Process Automation (RPA)",
-    description: "We automate repetitive tasks within apps, improving efficiency and reducing human error. This can free up resources for more strategic tasks and enhance overall productivity.",
+    title: "App Deployment & Launch",
+    description: "We manage the release of the app on platforms like the Apple App Store and Google Play Store. This includes handling app store guidelines, optimizing for discoverability, and monitoring the app's launch performance.",
     icon: GoDatabase,
     linkAddress: ""
   }

@@ -15,7 +15,7 @@ function AppDevelopment() {
       <PinkBackgroundWithCardsComponent
         title={"What is App Development?"}
         description={
-          "App development is the process of creating software applications for various devices. AI can significantly enhance app development by automating tasks, personalizing user experiences, and enabling intelligent features. This leads to more efficient development, improved user engagement, and innovative functionalities."
+          "App development is the process of creating software applications that run on mobile devices, desktops, or web platforms. It involves various stages, from ideation and design to development, testing, deployment, and maintenance. These applications can serve a wide range of purposes, such as entertainment, productivity, e-commerce, social networking, and much more. It’s a dynamic field, constantly evolving to incorporate new technologies and address the changing demands of users and businesses."
         }
         cards={FirstDeck}
       />

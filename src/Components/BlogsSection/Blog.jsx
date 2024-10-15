@@ -5,7 +5,7 @@ import community3 from '../../assets/community-3.png';
 
 const updates = [
     {
-        title: 'The AI Development landscape is rapidly evolving with increased focus on automation, scalability, and ethical AI, and organizations can stay ahead by investing in cutting-edge technologies, upskilling teams, and fostering innovation through responsible and data-driven AI solutions.',
+        title: 'The AI development landscape is rapidly evolving, with an increased focus on automation, scalability, ethical AI, and transparent decision-making. Organizations can stay ahead by investing in cutting-edge technologies, upskilling teams, fostering innovation through responsible, data-driven and secure AI solutions.',
         image: community1,
         link: '/services',
     },
@@ -20,7 +20,7 @@ const updates = [
         link: '/services',
     },
     {
-        title: 'The Software Engineering paradigms are increasingly focused on cloud-native development, microservices, and DevOps automation, and organizations can improve by embracing continuous integration/continuous deployment (CI/CD), enhancing collaboration through agile methodologies, and leveraging scalable, resilient architectures for faster innovation.',
+        title: 'The Software Engineering paradigms are increasingly focused on cloud-native development, microservices, and DevOps automation, and organizations can improve by embracing CI/CD, incorporating agile methodologies, and leveraging scalable, resilient architectures for faster innovation.',
         image: community3,
         link: '/services',
     },  
@@ -40,7 +40,7 @@ const updates = [
         link: '/services',
     },
     {
-        title: 'The rapid advancement of AI and cloud technologies is reshaping the App Development landscape, enabling organizations to create more innovative and efficient applications faster than ever before. To stay competitive, organizations should embrace these technologies, invest in skilled talent, and focus on delivering exceptional user experiences.',
+        title: 'The rapid advancement of AI and cloud technologies is reshaping the App Development landscape, enabling organizations to create more innovative and efficient applications faster than ever before. To stay competitive, organizations should embrace these technologies, invest in skilled talent, and deliver exceptional user experiences.',
         image: community3,
         link: '/services',
     },

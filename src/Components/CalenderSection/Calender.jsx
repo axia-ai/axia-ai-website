@@ -19,9 +19,6 @@ const Calender = () => {
           />
         </div>
         <div className="flex-1 space-y-4 text-left">
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-left">
-            How to design your site footer like we did
-          </h1>
           <p className="text-sm sm:text-base md:text-lg">
             Axia was founded by a dedicated team of engineers who share a
             profound belief in the potential of AI and software to reshape

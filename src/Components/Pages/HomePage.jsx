@@ -5,7 +5,7 @@ import Community from '../BlogsSection/Blogs'
 import Layout from '../Layout/Layout'
 import OurClients from '../../Components/clients/OurClients'
 // import CtaSection_UI_Kit from '../../Components/CtaSection_UI_Kit/CtaSection_UI_Kit'
-import Vacation from '../../Components/VacationSection/Vacation'
+// import Vacation from '../../Components/VacationSection/Vacation'
 import TestimonialSection from '../../Components/TestimonialSection/TestimonialSection'
 
 function LandingPage() {
@@ -17,7 +17,7 @@ function LandingPage() {
             {/* <CtaSection_UI_Kit/> */}
             <Community />
             <TestimonialSection/>
-            <Vacation/>
+            {/* <Vacation/> */}
         </Layout>
     )
 }

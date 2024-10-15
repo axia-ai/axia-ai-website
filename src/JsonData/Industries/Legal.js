@@ -4,7 +4,7 @@ import { IoIosAnalytics } from "react-icons/io";
 import { MdOutlinePreview } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
 import { IoMdAnalytics } from "react-icons/io";
-import { FcElectronics } from "react-icons/fc";
+import { MdOutlineElectricBolt } from "react-icons/md";
 import { GiSatelliteCommunication } from "react-icons/gi";
 
 export const LegalCards = [
@@ -35,7 +35,7 @@ export const LegalCards = [
   {
     title: "Electronic Discovery (eDiscovery)",
     description: "AI can assist with the collection, processing, and review of electronic documents for legal discovery purposes. This can help legal teams efficiently gather and organize relevant evidence, reducing the time and cost associated with the discovery process. AI can also help identify privileged information and ensure compliance with discovery rules.",
-    icon: FcElectronics,
+    icon: MdOutlineElectricBolt,
     linkAddress: ""
   },
   {

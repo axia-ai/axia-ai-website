@@ -3,7 +3,7 @@ import { FaYoutube } from "react-icons/fa";
 import { SiYoutubestudio } from "react-icons/si";
 import { TbAugmentedReality } from "react-icons/tb";
 import { SiCyberdefenders } from "react-icons/si";
-import { FcCustomerSupport } from "react-icons/fc";
+import { RiCustomerService2Fill } from "react-icons/ri";
 import { IoAccessibilitySharp } from "react-icons/io5";
 
 export const EntertainmentAndMediaCards = [
@@ -34,7 +34,7 @@ export const EntertainmentAndMediaCards = [
   {
     title: "Customer Service Automation",
     description: "AI-powered chatbots and virtual assistants can provide 24/7 customer support, answer questions, and resolve issues efficiently. This can improve customer satisfaction and reduce the burden on human customer service agents, leading to enhanced customer experiences and operational efficiency.",
-    icon: FcCustomerSupport,
+    icon: RiCustomerService2Fill,
     linkAddress: ""
   },
   {

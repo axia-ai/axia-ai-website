@@ -5,13 +5,13 @@ import Card from './Card'
 function PinkBackgroundWithCardsComponent({title, description, cards}) {
   return (
     <PinkBackgroundComponent>
-      <div className="text-center mb-10">
+      <div className="text-center p-10">
         <h1 className="text-4xl font-bold mt-2">{title}</h1>
-        <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm sm:text-lg">
+        <p className="text-gray-600 mt-4 max-w-4xl mx-auto text-sm sm:text-lg">
           {description}
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-8xl mx-auto px-14 py-12">
         {cards.map((card, index) => (
           <Card
             key={index}

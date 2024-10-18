@@ -15,7 +15,7 @@ export const ManufacturingCards = [
   },
   {
     title: "Quality Control",
-    description: "AI-powered vision systems can inspect products for defects with exceptional precision, identifying even subtle flaws that may be difficult for human inspectors to detect. This significantly improves product quality and reduces waste by preventing defective products from reaching consumers.",
+    description: "AI-powered vision systems can inspect products for defects with exceptional precision, identifying even subtle flaws that may be difficult for human inspectors to detect. This significantly improves product quality and reduces waste by preventing outflow of defective products, ultimately enhancing customer satisfaction and brand reputation.",
     icon: FaCheck,
     linkAddress: ""
   },
@@ -27,7 +27,7 @@ export const ManufacturingCards = [
   },
   {
     title: "Robotics and Automation",
-    description: "AI-powered robots can automate tasks, such as assembly, packaging, and material handling, improving safety, efficiency, and productivity in manufacturing environments. This can lead to reduced costs, increased output, and a safer workplace for human workers.",
+    description: "AI-powered robots can automate tasks, such as assembly, packaging, and material handling, improving safety, efficiency, and productivity in manufacturing environments. This can lead to reduced costs, increased output, and a safer workplace for human workers, ultimately making manufacturing processes more competitive and efficient.",
     icon: RiRobot3Fill,
     linkAddress: ""
   },

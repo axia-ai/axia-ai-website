@@ -15,7 +15,7 @@ export const SupplyChainCards = [
   },
   {
     title: "Inventory Management",
-    description: "AI can optimize inventory management by identifying optimal stock levels, preventing stockouts, and reducing excess inventory costs. By analyzing factors such as lead times, demand variability, and carrying costs, AI can help businesses maintain the right amount of inventory to meet customer needs while minimizing costs.",
+    description: "AI can optimize inventory management by identifying optimal stock levels, preventing stockouts, and reducing excess inventory costs. By analyzing factors such as lead times, demand variability, and carrying costs, AI can help businesses maintain the right amount of inventory to meet customer demands.",
     icon: MdOutlineInventory,
     linkAddress: ""
   },

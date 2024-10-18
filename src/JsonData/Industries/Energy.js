@@ -39,7 +39,7 @@ export const EnergyCards = [
   },
   {
     title: "Energy Theft Detection",
-    description: "AI-powered algorithms can analyze energy consumption patterns and detect anomalies that may indicate theft or unauthorized use, such as unusually high energy consumption or tampering with meters. This helps protect the integrity of the energy grid and ensures safety.",
+    description: "AI-powered algorithms can analyze energy consumption patterns and detect anomalies that may indicate theft or unauthorized use, such as unusually high energy consumption or tampering with meters. This helps protect the integrity of the energy grid and ensures safe energy utilization.",
     icon: SiCyberdefenders,
     linkAddress: ""
   },

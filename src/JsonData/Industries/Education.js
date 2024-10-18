@@ -15,13 +15,13 @@ export const EducationCards = [
   },
   {
     title: "Intelligent Tutoring Systems",
-    description: "AI-powered tutoring systems can provide personalized guidance and support to students, helping them understand complex concepts and improve their academic performance. This can lead to increased student engagement, motivation, and overall academic success.",
+    description: "AI-powered tutoring systems can provide personalized guidance and support to students, helping them understand complex concepts and improve their academic performance. This can lead to increased student engagement, comprehension, motivation, and overall academic success.",
     icon: GiBrain,
     linkAddress: ""
   },
   {
     title: "Automated Grading and Assessment",
-    description: "AI can automate the grading process, freeing up teachers' time to focus on more personalized instruction. AI can also provide valuable insights into student performance and identify areas for improvement, leading to more effective teaching and learning experiences.",
+    description: "AI can automate the grading process, freeing up teachers' time to focus on more personalized instruction. AI can also provide valuable insights into student performance and identify areas for improvement, leading to more effective teaching, targeted guidance and learning experiences.",
     icon: IoSettingsSharp,
     linkAddress: ""
   },

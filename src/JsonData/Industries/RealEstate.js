@@ -9,25 +9,25 @@ import { HiHomeModern } from "react-icons/hi2";
 export const RealEstateCards = [
   {
     title: "Property Valuation",
-    description: "AI-powered algorithms can analyze property data, including recent sales, market trends, and property features, to provide accurate and up-to-date property valuations. This can help buyers, sellers, and investors make informed decisions and negotiate fair prices.",
+    description: "AI-powered algorithms can analyze property data, including recent sales, market trends, and property features, to provide accurate and updated property valuations. This can help interested parties make informed decisions and negotiate fair prices, ultimately leading to more efficient and transparent transactions.",
     icon: HiHomeModern,
     linkAddress: ""
   },
   {
     title: "Lead Generation",
-    description: "AI can identify potential leads based on customer behavior, demographics, and preferences. By analyzing data from various sources, AI can help real estate agents target the right customers and increase their chances of closing deals effectively and efficiently.",
+    description: "AI can identify potential leads based on customer behavior, demographics, preferences, and requirements. By analyzing data from various sources, AI can help real estate agents target the right customers and increase their chances of closing deals efficiently and in a more informed way.",
     icon: SiGoogleadsense,
     linkAddress: ""
   },
   {
     title: "Personalized Recommendations",
-    description: "AI can analyze customer preferences and needs to recommend suitable properties, improving the customer experience and increasing the likelihood of sales. By understanding customer preferences, AI can match buyers with properties that meet their specific requirements.",
+    description: "AI can analyze customer preferences and needs to recommend suitable properties, improving the customer experience and increasing the likelihood of sales. By understanding customer preferences, AI can match buyers with properties that meet their specific preferences and requirements.",
     icon: FaHouseUser,
     linkAddress: ""
   },
   {
     title: "Virtual Tours",
-    description: "AI-powered virtual tours can provide immersive experiences for potential buyers, allowing them to explore properties from the comfort of their own homes. This can save time and effort for both buyers and sellers, and increase the likelihood of making informed decisions by re-imagining luxury living.",
+    description: "AI-powered virtual tours can provide immersive experiences for potential buyers, allowing them to explore properties from the comfort of their own homes. This can save time and effort for both buyers and sellers, and increase the likelihood of making informed decisions by re-imagining comfotable and luxury living.",
     icon: FaLaptopHouse,
     linkAddress: ""
   },

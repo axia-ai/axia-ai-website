@@ -28,7 +28,7 @@ export const LegalCards = [
   },
   {
     title: "Predictive Analytics",
-    description: "AI can analyze legal data to predict future trends, identify potential risks, and anticipate legal challenges. This can help legal professionals stay ahead of the curve and provide proactive advice to clients. For example, AI can predict the likelihood of certain legal outcomes, identify potential regulatory changes, and assess the risks associated with specific legal strategies.",
+    description: "AI can analyze legal data to predict future trends, identify potential risks, and anticipate legal challenges. This can help legal professionals stay ahead of the curve and provide proactive advice to clients. AI can predict the likelihood of specific legal strategies by identifying potential regulatory changes and assess the overall risks associated.",
     icon: IoMdAnalytics,
     linkAddress: ""
   },

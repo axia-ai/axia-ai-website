@@ -34,7 +34,7 @@ export const TelecommunicationsCards = [
   },
   {
     title: "Personalized Recommendations",
-    description: "AI can analyze customer data to offer personalized recommendations for products and services, improving customer engagement and loyalty. This can help telecommunications companies increase revenue and customer satisfaction.",
+    description: "AI can analyze customer data to offer personalized recommendations for products and services, improving customer engagement, satifaction and loyalty and lead the telecommunications companies to grow.",
     icon: BsPersonBoundingBox,
     linkAddress: ""
   },

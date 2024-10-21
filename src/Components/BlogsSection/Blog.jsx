@@ -3,10 +3,18 @@ import community1 from '../../assets/community-1.png';
 import community2 from '../../assets/community-2.png';
 import community3 from '../../assets/community-3.png';
 
+import aiDevelopment from "../../assets/Blogs/aiDevelopment.png";
+import dataEngineering from "../../assets/Blogs/dataEngineering.png";
+import devops from "../../assets/Blogs/devops.png";
+import iot from "../../assets/Blogs/iot.png";
+import cloud from "../../assets/Blogs/cloud.png";
+// import cyberSecurity from "../../assets/Blogs/cyberSecurity.png";
+
+
 const updates = [
     {
         title: 'The AI development landscape is rapidly evolving, with an increased focus on automation, scalability, ethical AI, and transparent decision-making. Organizations can stay ahead by investing in cutting-edge technologies, upskilling teams, fostering innovation through responsible, data-driven and secure AI solutions.',
-        image: community1,
+        image: aiDevelopment,
         link: '/services',
     },
     {
@@ -16,7 +24,7 @@ const updates = [
     },
     {
         title: 'Data Engineering practices are shifting towards real-time processing, cloud-native architectures, and AI-driven automation, and organizations can improve by modernizing their data infrastructure, adopting scalable data pipelines, and empowering teams with advanced tools for faster, more efficient data handling.',
-        image: community3,
+        image: dataEngineering,
         link: '/services',
     },
     {
@@ -26,12 +34,12 @@ const updates = [
     },  
     {
         title: 'Cloud Computing world is evolving with the rise of hybrid and multi-cloud environments, serverless architectures, and edge computing, and organizations can improve by adopting flexible cloud strategies, optimizing resource management, and integrating advanced cloud-native services for enhanced agility and scalability.',
-        image: community3,
+        image: cloud,
         link: '/services',
     },
     {
         title: 'DevOps landscape is increasingly driven by automation, infrastructure as code (IaC), and AI-enhanced operations, and organizations can improve by investing in end-to-end automation, fostering a culture of continuous collaboration, and leveraging AI and machine learning for predictive maintenance and optimization.',
-        image: community3,
+        image: devops,
         link: '/services',
     },
     {
@@ -46,7 +54,7 @@ const updates = [
     },
     {
         title: 'The Internet of Things (IoT) landscape is rapidly evolving, with an increasing number of connected devices and growing complexity. To thrive in this environment, organizations must focus on data security, scalability, and interoperability, while adopting advanced analytics and AI to extract valuable insights from IoT data.',
-        image: community3,
+        image: iot,
         link: '/services',
     },
 ];

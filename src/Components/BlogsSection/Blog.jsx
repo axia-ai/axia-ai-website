@@ -10,7 +10,7 @@ import iot from "../../assets/Blogs/iot.png";
 import cloud from "../../assets/Blogs/cloud.png";
 import chatgptIntegration from "../../assets/Blogs/chatgptIntegration.png";
 import software from "../../assets/Blogs/software.png";
-import cyberSecurity1 from "../../assets/Blogs/cyberSecurity1.png";
+import cybersecurity from "../../assets/Blogs/cybersecurity.png";
 import aiCloud from "../../assets/Blogs/aiCloud.png";
 
 
@@ -47,7 +47,7 @@ const updates = [
     },
     {
         title: 'Cybersecurity landscape is becoming more complex with the rise of sophisticated threats, zero-trust architectures, and AI-driven defenses, and organizations can improve by adopting proactive threat detection, strengthening access controls, and continuously updating their security strategies to mitigate evolving risks.',
-        image: cyberSecurity1,
+        image: cybersecurity,
         link: '/services',
     },
     {

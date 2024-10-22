@@ -8,7 +8,10 @@ import dataEngineering from "../../assets/Blogs/dataEngineering.png";
 import devops from "../../assets/Blogs/devops.png";
 import iot from "../../assets/Blogs/iot.png";
 import cloud from "../../assets/Blogs/cloud.png";
-// import cyberSecurity from "../../assets/Blogs/cyberSecurity.png";
+import chatgptIntegration from "../../assets/Blogs/chatgptIntegration.png";
+import software from "../../assets/Blogs/software.png";
+import cyberSecurity1 from "../../assets/Blogs/cyberSecurity1.png";
+import aiCloud from "../../assets/Blogs/aiCloud.png";
 
 
 const updates = [
@@ -19,7 +22,7 @@ const updates = [
     },
     {
         title: 'ChatGPT Integrations are expanding with advancements in API capabilities, customizability, and cross-platform applications, and organizations can improve by adopting flexible integration strategies, enhancing user experience with tailored conversational AI, and staying agile in leveraging new features and updates.',
-        image: community2,
+        image: chatgptIntegration,
         link: '/services',
     },
     {
@@ -29,7 +32,7 @@ const updates = [
     },
     {
         title: 'The Software Engineering paradigms are increasingly focused on cloud-native development, microservices, and DevOps automation, and organizations can improve by embracing CI/CD, incorporating agile methodologies, and leveraging scalable, resilient architectures for faster innovation.',
-        image: community3,
+        image: software,
         link: '/services',
     },  
     {
@@ -44,12 +47,12 @@ const updates = [
     },
     {
         title: 'Cybersecurity landscape is becoming more complex with the rise of sophisticated threats, zero-trust architectures, and AI-driven defenses, and organizations can improve by adopting proactive threat detection, strengthening access controls, and continuously updating their security strategies to mitigate evolving risks.',
-        image: community3,
+        image: cyberSecurity1,
         link: '/services',
     },
     {
         title: 'The rapid advancement of AI and cloud technologies is reshaping the App Development landscape, enabling organizations to create more innovative and efficient applications faster than ever before. To stay competitive, organizations should embrace these technologies, invest in skilled talent, and deliver exceptional user experiences.',
-        image: community3,
+        image: aiCloud,
         link: '/services',
     },
     {

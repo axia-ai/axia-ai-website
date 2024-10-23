@@ -71,7 +71,7 @@ const OurProcess = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-center bg-center bg-no-repeat bg-[length:0%] md:bg-[length:100%] bg-none sm:bg-cover py-4"
+      className="flex flex-col justify-center items-center bg-center bg-no-repeat bg-[length:0%] md:bg-[length:100%] bg-none sm:bg-cover p-4"
       style={{ backgroundImage: `url(${backgroundVectorImage})` }}
     >
       <div className="flex justify-center items-center m-5">

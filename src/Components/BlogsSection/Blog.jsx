@@ -1,8 +1,4 @@
 import React from 'react';
-import community1 from '../../assets/community-1.png';
-import community2 from '../../assets/community-2.png';
-import community3 from '../../assets/community-3.png';
-
 import aiDevelopment from "../../assets/Blogs/aiDevelopment.png";
 import dataEngineering from "../../assets/Blogs/dataEngineering.png";
 import devops from "../../assets/Blogs/devops.png";

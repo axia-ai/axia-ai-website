@@ -11,14 +11,16 @@ const Calender = () => {
         </h1>
       </div>
       <div className="flex flex-col sm:flex-row items-center justify-center text-black p-5 lg:p-10 my-4 md:my-2">
-        <div className="mb-5 sm:mb-0 sm:flex-1">
+        {/* Image container with 30% width */}
+        <div className="w-full sm:w-[35%] mb-5 sm:mb-0">
           <img
             src={vrglass}
             alt="VR Headset"
             className="mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md"
           />
         </div>
-        <div className="flex-1 space-y-4 text-left">
+        {/* Text content container with 70% width */}
+        <div className="w-full sm:w-[65%] space-y-4 text-left">
           <p className="text-sm sm:text-base md:text-lg">
             Axia was founded by a dedicated team of engineers who share a
             profound belief in the potential of AI and software to reshape

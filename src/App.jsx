@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
+import "./App.css";
+import HomePage from "./Components/Pages/HomePage";
+import { Toaster } from "react-hot-toast";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Navbar/>
+      <HomePage />
+      <Toaster position="top-center" reverseOrder={false} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

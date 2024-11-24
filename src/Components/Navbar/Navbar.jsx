@@ -1,6 +1,8 @@
 // src/components/Navbar.jsx
 import React, { useState } from 'react';
 import NavLinkItemGroup from './NavLinkItemGroup';
+import CompanyLogo from '../ReusableComponents/CompanyLogo';
+import ContactButtton from '../ReusableComponents/ContactButtton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +34,14 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start mr-10 sm:mr-0">
             <div className="flex-shrink-0">
-              <span className="text-xl font-bold">Axia</span>
+              <div className="flex items-center">
+                <a href="/">
+                  <CompanyLogo/>
+                </a>
+                <a href="/">
+                  <span className="text-xl font-kanit font-bold text-black">Axia</span>
+                </a>
+              </div>
             </div>
             <div className="hidden sm:block sm:m-auto">
               <div className="flex space-x-4">
@@ -40,11 +49,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button className="bg-green-500 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600">
-              Talk To Us
-            </button>
-          </div>
+          <ContactButtton/>
         </div>
       </div>
       {/* Mobile menu, show/hide based on menu state. */}

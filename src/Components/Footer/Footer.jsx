@@ -3,10 +3,7 @@ import logo from "../../assets/axia_logo.png";
 import IndianFlag from "../../assets/IndianFlag.png";
 import JapanFlag from "../../assets/JapanFlag.png";
 import USAFlag from "../../assets/USAFlag.png";
-import { CgInstagram } from "react-icons/cg";
-import { CgFacebook } from "react-icons/cg";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { CgYoutube } from "react-icons/cg";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -21,17 +18,8 @@ export default function Footer() {
             Copyright © 2024 Axia Itd. All rights reserved.
           </p>
           <div className="mt-4 flex space-x-4">
-            <a href="/" className="rounded-full bg-gray-700 p-2">
-              <CgInstagram />
-            </a>
-            <a href="/" className="rounded-full bg-gray-700 p-2">
-              <CgFacebook />
-            </a>
-            <a href="/" className="rounded-full bg-gray-700 p-2">
-              <AiFillTwitterCircle />
-            </a>
-            <a href="/" className="rounded-full bg-gray-700 p-2">
-              <CgYoutube />
+            <a href="https://www.linkedin.com/company/axia-aitech/" className="rounded-full bg-gray-700 p-2">
+              <FaLinkedin />
             </a>
           </div>
         </div>

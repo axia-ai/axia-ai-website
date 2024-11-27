@@ -10,14 +10,14 @@ function PrivacyPolicyPage() {
           <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
 
           <p>
-            <strong>Effective Date:</strong> [Insert Date]
+            <strong>Effective Date:</strong> 27/112024
           </p>
           <p>
-            <strong>Last Updated:</strong> [Insert Date]
+            <strong>Last Updated:</strong> 27/11/2025
           </p>
 
           <p className="mt-4">
-            At [Your Company Name] ("we," "our," or "us"), we are committed to
+            At Datamango Technologies ("we," "our," or "us"), we are committed to
             protecting your privacy. This Privacy Policy explains how we
             collect, use, disclose, and safeguard your information when you use
             our AI consulting software services (the “Services”), including the
@@ -202,10 +202,10 @@ function PrivacyPolicyPage() {
             our data practices, please contact us at:
           </p>
           <p>
-            [Your Company Name] <br />
-            [Address] <br />
-            [Email Address] <br />
-            [Phone Number]
+            Datamango Technologies,  <br />
+            501,Let's Work, Raheja Plaza, LBS Rd, Ghatkopar (west) <br />
+            info@ax-ia.ai <br />
+            +91 7021835261
           </p>
         </div>
       </div>

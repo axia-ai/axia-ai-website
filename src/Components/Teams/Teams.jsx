@@ -16,7 +16,7 @@ const Teams = () => {
         <div className="flex justify-between items-center my-8 max-md:flex-col max-md:my-3">
           <Teams_card Name="Shreyas Karanjkar" Post="Director, Head of Growth" Img={image1} Link="https://www.linkedin.com/in/shreyas-karanjkar-ai-consultant/"/>
           <Teams_card Name="Akash Nagarkar" Post="Director, Head of AI & Data" Img={image2} Link="https://www.linkedin.com/in/akash-nagarkar/"/>
-          <Teams_card Name="Siddharth Khonde" Post="Director, Head of Software Engineering" Img={image3} Link="https://www.linkedin.com/in/siddharthkhonde/"/>
+          <Teams_card Name="" Post="Director, Head of Software Engineering" Img={image3} Link=""/>
         </div>
       </div>
     </>

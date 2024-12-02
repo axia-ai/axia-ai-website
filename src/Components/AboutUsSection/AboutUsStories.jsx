@@ -28,7 +28,7 @@ function AboutUsStory() {
         />
         <AboutUsStoryCard
           year={"2015"}
-          title={"Siddharth Khonde"}
+          title={""}
           description={
             "In fames accumsan proin elit nec blandit. Lectus est elit eleifend amet dictum nibh. Cursus dui sit fames."
           }

@@ -17,7 +17,7 @@ function AboutUs() {
       <AboutUsValues />
       <OurValues />
       <OurClients/>
-      <Teams />
+      {/* <Teams /> */}
       <TestimonialPage/>
     </Layout>
   );
